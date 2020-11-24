@@ -1,0 +1,5 @@
+2020/11/18-16:48:32.086 42638 Reusing MANIFEST /home/dyear/.config/Notion/Partitions/notion/Local Storage/leveldb/MANIFEST-000001
+2020/11/18-16:48:32.086 42638 Recovering log #110
+2020/11/18-16:48:32.087 42638 Level-0 table #114: started
+2020/11/18-16:48:32.091 42638 Level-0 table #114: 20896 bytes OK
+2020/11/18-16:48:32.095 42638 Delete type=0 #110

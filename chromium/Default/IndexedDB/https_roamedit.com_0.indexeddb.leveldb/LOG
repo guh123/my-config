@@ -1,0 +1,15 @@
+2020/11/20-11:49:33.161 18bbae Reusing MANIFEST /home/dyear/.config/chromium/Default/IndexedDB/https_roamedit.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/20-11:49:33.162 18bbae Recovering log #31
+2020/11/20-11:49:33.162 18bbae Reusing old log /home/dyear/.config/chromium/Default/IndexedDB/https_roamedit.com_0.indexeddb.leveldb/000031.log 
+2020/11/20-11:52:08.894 18bbac Level-0 table #36: started
+2020/11/20-11:52:08.897 18bbac Level-0 table #36: 9101 bytes OK
+2020/11/20-11:52:08.902 18bbac Delete type=0 #31
+2020/11/20-11:52:08.903 18bbac Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/20-11:52:08.903 18bbac Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x02 \x01\x12\x00u\x004\x00E\x00h\x00-\x00t\x00o\x00p\x00i\x00c\x002\x000\x002\x000\x001\x001\x002\x000\x00\x01\x0c\x00u\x004\x00E\x00h\x00-\x00s\x00g\x00Q\x002\x008\x00g\x00I' @ 16417 : 1
+2020/11/20-11:52:08.903 18bbac Compacting 1@1 + 1@2 files
+2020/11/20-11:52:08.909 18bbac Generated table #37@1: 1595 keys, 65272 bytes
+2020/11/20-11:52:08.909 18bbac Compacted 1@1 + 1@2 files => 65272 bytes
+2020/11/20-11:52:08.913 18bbac compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/20-11:52:08.913 18bbac Delete type=2 #33
+2020/11/20-11:52:08.914 18bbac Delete type=2 #36
+2020/11/20-11:52:08.914 18bbac Manual compaction at level-1 from '\x00\x03\x02 \x01\x12\x00u\x004\x00E\x00h\x00-\x00t\x00o\x00p\x00i\x00c\x002\x000\x002\x000\x001\x001\x002\x000\x00\x01\x0c\x00u\x004\x00E\x00h\x00-\x00s\x00g\x00Q\x002\x008\x00g\x00I' @ 16417 : 1 .. (end); will stop at (end)

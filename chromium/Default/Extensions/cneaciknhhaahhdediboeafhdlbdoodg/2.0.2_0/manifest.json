@@ -1,0 +1,34 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "vendor/babelpolyfill/babel-polyfill-6.26.0.js", "dist/clipper-background.bundle.js", "vendor/sanitize/sanitize.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "assets/icons/icon-128.png",
+         "19": "assets/icons/icon.png",
+         "38": "assets/icons/icon@2x.png"
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "vendor/babelpolyfill/babel-polyfill-6.26.0.js", "initial-load.js", "vendor/readability/Readability.js", "vendor/jquery/jquery-3.1.0.min.js", "vendor/zoho/annotator/fcomponents_annotator.js" ],
+      "matches": [ "http://*/*", "https://*/*", "file://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self'; object-src 'self';",
+   "default_locale": "en",
+   "description": "Clear the clutter. Clip the web. Save to Notebook.",
+   "icons": {
+      "128": "assets/icons/icon-128.png",
+      "16": "assets/icons/icon-rightmenu.png",
+      "32": "assets/icons/icon-rightmenu@2x.png",
+      "48": "assets/icons/icon-128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvgAPfCXKDaW9VPPXsCMsbuoQorPQj9lAXJlr4PBnkKtizR1r6SPpeA/18E2rPbp3yIe5Nx4d3fuOXiWHoBoQSgupCrkGwprd0uuXFCP8hJEabW5RHyZN5CvmGJviVlJ8ji9izedLwr0m1fr3/sgA+FpNtG1eU7e15999lkqDTjBG4ahV9f7Ut5k0SVh1pzvGhaxv76LV5nAI8SkmVfAhqngu3z4wS6G6D7vQOekyUzybRhMOQk5NXhN9prQU1kJsk5mbMma4UixJq/3SCOjyqDKPwDyK0KzoskTzjAgeaGwMS+/TU7NRvLTWP5VfbakwImAZed5oXTUXizJmVhqDywIDAQAB",
+   "manifest_version": 2,
+   "name": "Notebook Web Clipper",
+   "permissions": [ "tabs", "activeTab", "storage", "cookies", "http://*/*", "https://*/*", "contextMenus", "geolocation", "unlimitedStorage", "webNavigation", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.2",
+   "web_accessible_resources": [ "html/*", "images/icn-success-clipping.png", "images/icn-close-popup.png", "images/*", "css/*", "js/*", "fonts/*", "vendor/*" ]
+}

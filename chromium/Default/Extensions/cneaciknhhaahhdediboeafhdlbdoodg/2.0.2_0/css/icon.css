@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "nb-icons";
+    src: url("../assets/icons/icomoon.ttf") format("truetype"),
+    url("../assets/icons/icomoon.woff") format('woff'),
+    url("../assets/icons/icomoon.eot") format('embedded-opentype'),
+    url("../assets/icons/icomoon.svg") format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.iedit-photo,
+.iview-all,
+.iclose,
+.iadd-photo,
+.ibookmark,
+.ireader-view,
+.itag,
+.ireminder,
+.icolor-picker,
+.isettings,
+.iscreenshot,
+.idelete-photo,
+.idrop {
+    font-family: "nb-icons";
+}
+
+.itag:before {
+    content: "\e90f";
+    font-size: 24px;
+}
+
+.ireminder:before {
+    content: "\e90b";
+    font-size: 24px;
+}
+
+.icolor-picker:before {
+    content: "\e904";
+    font-size: 24px;
+}
+
+.isettings:before {
+    content: "\e90d";
+    font-size: 22px;
+}
+
+.iscreenshot:before {
+    content: "\e90c";
+    font-size: 24px;
+}
+
+.ireader-view:before {
+    content: "\e90a";
+    font-size: 24px;
+}
+
+.ibookmark:before {
+    content: "\e902";
+    font-size: 24px;
+}
+
+.iadd-photo:before {
+    content: "\e900";
+    font-size: 24px;
+}
+
+.iclose:before {
+    content: "\e903";
+    font-size: 24px;
+}
+
+.iview-all:before {
+    content: "\e908";
+    font-size: 32px;
+}
+
+.idelete-photo:before {
+    content: "\e905";
+    font-size: 24px;
+}
+
+.iedit-photo:before {
+    content: "\e907";
+    font-size: 24px;
+}
+
+.idrop:before {
+    content: "\e906";
+    font-size: 24px;
+}
+
+.inotebook {
+    background-image: url("../assets/icons/app-icon@2x.png");
+    background-size: cover;
+}
+
+.inotifi-topbar {
+    font-family: "nb-icons";
+}
+
+.inotifi-topbar:before {
+    content: "\e901";
+    font-size: 20px;
+}
+
+.inotebook-line {
+    font-family: "nb-icons";
+}
+
+.inotebook-line:before {
+    content: "\e909";
+    font-size: 24px;
+}

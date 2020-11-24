@@ -1,0 +1,5 @@
+2020/11/21-13:32:00.785 5daca Reusing MANIFEST /home/dyear/.config/chromium/Default/IndexedDB/https_meta.appinn.net_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/21-13:33:09.202 5daca Level-0 table #5: started
+2020/11/21-13:33:09.208 5daca Level-0 table #5: 102958 bytes OK
+2020/11/21-13:33:09.213 5daca Delete type=0 #3
+2020/11/21-13:33:09.213 5daca Manual compaction at level-0 from (begin) .. (end); will stop at (end)

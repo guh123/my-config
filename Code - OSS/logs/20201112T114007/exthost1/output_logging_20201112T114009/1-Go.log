@@ -1,0 +1,9 @@
+Starting linting the current package at /home/dyear/go/src/github.com/guh123/SortUrl
+Starting building the current package at /home/dyear/go/src/github.com/guh123/SortUrl
+Starting "go vet" under the folder /home/dyear/go/src/github.com/guh123/SortUrl
+/home/dyear/go/src/github.com/guh123/SortUrl>Finished running tool: /usr/bin/go build -o /tmp/vscode-gob7wCF5/go-code-check .
+
+Tools environment: GOPATH=/home/dyear/go/
+Installing 1 tool at /home/dyear/go/bin in module mode.
+/home/dyear/go/src/github.com/guh123/SortUrl>Finished running tool: /usr/bin/go vet .
+

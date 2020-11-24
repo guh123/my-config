@@ -1,0 +1,168 @@
+/*
+ * Copyright (C) 2016  Alex Yatskov <alex@foosoft.net>
+ * Author: Alex Yatskov <alex@foosoft.net>
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/* common styles */
+
+body {
+    background-color: #fff;
+    color:            #333;
+    font-family:      "Open Sans", Arial, sans-serif;
+    font-size:        12px;
+    line-height:      1.5;
+    overflow-y:       auto;
+    margin:           6px;
+}
+
+
+.tag {
+    border-radius:  2px;
+    color:          #fff;
+    cursor:         default;
+    display:        inline;
+    font-size: 12px;
+    font-weight:    normal;
+    line-height:    1;
+    padding:        0px 3px 0px 2px;
+    text-align:     center;
+    vertical-align: baseline;
+    white-space:    nowrap;
+}
+
+.tag-default {
+    background-color: #8a8a91;
+}
+.tag-wordstar{
+    color:            #fdac00;
+}
+.tag-onlinedict {
+    background-color: #418ffe;
+}
+
+.audio-bar,
+.action-bar {
+    float: right;
+}
+
+.audio-bar:after,
+.action-bar:after {
+    clear:   both;
+    content: '';
+    display: block;
+}
+
+.action-bar .disabled {
+    pointer-events: none;
+    cursor:         default;
+}
+
+.action-bar .disabled img {
+    -webkit-filter: grayscale(100%);
+    opacity:        0.25;
+}
+
+/* term styles */
+.term-definition{
+    font-family: Helvetica, Arial, sans-serif;
+    margin-top:       5px;
+    background-color: #fff;
+}
+
+.term-expression {
+    margin:2px;
+    padding: 0 3px;
+    border-bottom:   2px #666 solid;
+}
+
+.term-expression a {
+    text-decoration: none;
+}
+
+.term-word{
+    display:   inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    font-weight: 700;
+}
+
+.term-reading {
+    font-family:  arial;
+    color:     #777;
+    display:   inline-block;
+    font-size: 12px; 
+}
+
+.term-glossary {
+}
+
+.term-glossary .text_blue{
+
+}
+
+.term-glossary ul {
+    list-style:none;
+    padding-left: 0px;
+    margin:2px;
+}
+
+.term-glossary li {
+    display: block;
+    color: #000;
+    background-color : #fefefe;
+    border           : 1px solid;               
+    border-color     : #e5e6e9 #dfe0e4 #d0d1d5; 
+    border-radius    : 3px;                    
+    padding: 5px;
+    margin-top:3px;
+}
+
+.term-glossary li .highlight{
+    font-size: 12px;
+    border-radius: 4px;
+    color:white;
+    padding:0 3px;
+    margin-right:5px;
+}
+
+/* kanji styles */
+
+.kanji-glyph {
+    float:          right;
+    font-family:    kanji-stroke-orders;
+    font-size:      140px;
+    line-height:    140px;
+    padding:        0.01em;
+    vertical-align: top;
+}
+
+.kanji-reading {
+    font-family: vl-gothic-regular;
+}
+
+.kanji-info {
+    display:  block;
+    overflow: hidden;
+}
+
+.kanji-info dt {
+    color:       #777;
+    font-weight: bold;
+}
+
+.kanji-info dd {
+    margin-left: 1.2em;
+}

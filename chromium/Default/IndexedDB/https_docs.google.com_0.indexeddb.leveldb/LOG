@@ -1,0 +1,15 @@
+2020/11/02-20:28:18.346 776e3 Reusing MANIFEST /home/dyear/.config/chromium/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/02-20:28:18.346 776e3 Recovering log #4
+2020/11/02-20:28:18.346 776e3 Reusing old log /home/dyear/.config/chromium/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000004.log 
+2020/11/02-20:29:06.298 79744 Level-0 table #8: started
+2020/11/02-20:29:06.304 79744 Level-0 table #8: 1164 bytes OK
+2020/11/02-20:29:06.310 79744 Delete type=0 #4
+2020/11/02-20:29:06.310 79744 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/02-20:29:06.310 79744 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01\x16\x00d\x00o\x00c\x00s\x00O\x00f\x00f\x00l\x00i\x00n\x00e\x00I\x00f\x00r\x00a\x00m\x00e\x00A\x00p\x00i\x00-\x00n' @ 667 : 1
+2020/11/02-20:29:06.310 79744 Compacting 1@1 + 1@2 files
+2020/11/02-20:29:06.316 79744 Generated table #9@1: 205 keys, 3048 bytes
+2020/11/02-20:29:06.316 79744 Compacted 1@1 + 1@2 files => 3048 bytes
+2020/11/02-20:29:06.321 79744 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/02-20:29:06.322 79744 Delete type=2 #8
+2020/11/02-20:29:06.322 79744 Delete type=2 #5
+2020/11/02-20:29:06.322 79744 Manual compaction at level-1 from '\x00\x02\x01\x02\x01\x16\x00d\x00o\x00c\x00s\x00O\x00f\x00f\x00l\x00i\x00n\x00e\x00I\x00f\x00r\x00a\x00m\x00e\x00A\x00p\x00i\x00-\x00n' @ 667 : 1 .. (end); will stop at (end)

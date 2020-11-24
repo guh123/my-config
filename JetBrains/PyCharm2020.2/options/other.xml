@@ -1,0 +1,34 @@
+<application>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/usr/bin/node" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="FindSplitterProportion" value="0.0" />
+    <property name="InstalledPluginsSearchHistory" value="/outdated" />
+    <property name="NonModalCommitCustomization.IsApplied" value="true" />
+    <property name="PluginConfigurable.selectionTab" value="1" />
+    <property name="PyCharm.InitialConfiguration" value="true" />
+    <property name="PyCharm.InitialConfiguration.V2" value="true" />
+    <property name="PyCharm.InitialConfiguration.V3" value="true" />
+    <property name="PyCharm.InitialConfiguration.V4" value="true" />
+    <property name="PyCharm.InitialConfiguration.V5" value="true" />
+    <property name="PyCharm.InitialConfiguration.V6" value="true" />
+    <property name="PyCharm.InitialConfiguration.V7" value="true" />
+    <property name="appcds.runOnSecondStart" value="PY-202.7660.27-c55fcb160b0370a76b0b61985a3d7635a0288b9b0d087fefa1ccfc54b3328a58" />
+    <property name="ask.about.ctrl.y.shortcut.v2" value="true" />
+    <property name="evlsprt3.202" value="10" />
+    <property name="experimentalFeature.terminal.shell.command.handling" value="false" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/Study/Dscan&#10;/home/dyear/Study/w13scan/W13SCAN&#10;/home/dyear/Study/w13scan" />
+    <property name="file.gist.reindex.count" value="14318" />
+    <property name="fileTypeChangedCounter" value="2" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="lastSeenTip" value="neue-MethodUpDown.html" />
+    <property name="lastTimeTipsWereShown" value="1603527897527" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Study/w13scan/W13SCAN" />
+    <property name="seenTips" value="neue-SurroundWith.html,neue-warning_for_unnecessary_coalesce_operator.html,neue-CancelByControlArrows.html,neue-MethodUpDown.html" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+    <property name="ts.lib.d.ts.version" value="3.9.5" />
+  </component>
+</application>

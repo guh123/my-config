@@ -1,0 +1,8 @@
+[2020-11-01 18:49:29.353] [renderer1] [error] Cannot read property 'range' of null: TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:46.540] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/home/dyear/.deepinwine/Deepin-ThunderSpeed/drive_c/users/dyear/My Documents" points to "/home/dyear"
+[2020-11-01 18:49:51.978] [renderer1] [error] Cannot read property 'range' of null: TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:53.736] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/home/dyear/.deepinwine/Deepin-ThunderSpeed/dosdevices/c:/users/dyear/My Documents" points to "/home/dyear"

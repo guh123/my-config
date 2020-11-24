@@ -1,0 +1,15 @@
+2020/11/19-09:08:18.598 2587f2 Reusing MANIFEST /home/dyear/.config/chromium/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/19-09:08:18.598 2587f2 Recovering log #15
+2020/11/19-09:08:18.598 2587f2 Reusing old log /home/dyear/.config/chromium/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000015.log 
+2020/11/19-09:09:10.332 2587f2 Level-0 table #20: started
+2020/11/19-09:09:10.337 2587f2 Level-0 table #20: 41697 bytes OK
+2020/11/19-09:09:10.341 2587f2 Delete type=0 #15
+2020/11/19-09:09:10.341 2587f2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/19-09:09:10.342 2587f2 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x02"\x01$\x001\x008\x00f\x00f\x00b\x009\x00d\x006\x00-\x00a\x004\x00f\x009\x00-\x004\x00d\x001\x00c\x00-\x009\x009\x005\x002\x00-\x00b\x00f\x007\x009\x002\x007\x006\x00b\x009\x001\x002\x00d\x00\x03\x00\x00\x00\x00\x00\xf8\x81@' @ 26721 : 1
+2020/11/19-09:09:10.342 2587f2 Compacting 1@1 + 1@2 files
+2020/11/19-09:09:10.349 2587f2 Generated table #21@1: 1790 keys, 64357 bytes
+2020/11/19-09:09:10.349 2587f2 Compacted 1@1 + 1@2 files => 64357 bytes
+2020/11/19-09:09:10.353 2587f2 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/19-09:09:10.353 2587f2 Delete type=2 #17
+2020/11/19-09:09:10.353 2587f2 Delete type=2 #20
+2020/11/19-09:09:10.354 2587f2 Manual compaction at level-1 from '\x00\x01\x02"\x01$\x001\x008\x00f\x00f\x00b\x009\x00d\x006\x00-\x00a\x004\x00f\x009\x00-\x004\x00d\x001\x00c\x00-\x009\x009\x005\x002\x00-\x00b\x00f\x007\x009\x002\x007\x006\x00b\x009\x001\x002\x00d\x00\x03\x00\x00\x00\x00\x00\xf8\x81@' @ 26721 : 1 .. (end); will stop at (end)

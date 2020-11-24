@@ -1,0 +1,15 @@
+2020/11/20-12:11:42.424 197478 Reusing MANIFEST /home/dyear/.config/chromium/Default/IndexedDB/https_forum.obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/20-12:11:42.425 197478 Recovering log #4
+2020/11/20-12:11:42.425 197478 Reusing old log /home/dyear/.config/chromium/Default/IndexedDB/https_forum.obsidian.md_0.indexeddb.leveldb/000004.log 
+2020/11/20-12:12:23.157 197418 Level-0 table #8: started
+2020/11/20-12:12:23.162 197418 Level-0 table #8: 993 bytes OK
+2020/11/20-12:12:23.167 197418 Delete type=0 #4
+2020/11/20-12:12:23.168 197418 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/20-12:12:23.168 197418 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00p\x9d\x9c=^wB\x00\x01K\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00-\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00f\x00o\x00r\x00u\x00m\x00.\x00o\x00b\x00s\x00i\x00d\x00i\x00a\x00n\x00.\x00m\x00d\x00/\x00i\x00m\x00a\x00g\x00e\x00s\x00/\x00e\x00m\x00o\x00j\x00i\x00/\x00a\x00p\x00p\x00l\x00e\x00/\x00h\x00e\x00a\x00r\x00t\x00p\x00u\x00l\x00s\x00e\x00.\x00p\x00n\x00g\x00?\x00v\x00=\x009' @ 927 : 1
+2020/11/20-12:12:23.168 197418 Compacting 1@1 + 1@2 files
+2020/11/20-12:12:23.174 197418 Generated table #9@1: 217 keys, 26974 bytes
+2020/11/20-12:12:23.174 197418 Compacted 1@1 + 1@2 files => 26974 bytes
+2020/11/20-12:12:23.179 197418 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/20-12:12:23.180 197418 Delete type=2 #8
+2020/11/20-12:12:23.180 197418 Delete type=2 #5
+2020/11/20-12:12:23.180 197418 Manual compaction at level-1 from '\x00\x01\x01 \x03\x00p\x9d\x9c=^wB\x00\x01K\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00-\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00f\x00o\x00r\x00u\x00m\x00.\x00o\x00b\x00s\x00i\x00d\x00i\x00a\x00n\x00.\x00m\x00d\x00/\x00i\x00m\x00a\x00g\x00e\x00s\x00/\x00e\x00m\x00o\x00j\x00i\x00/\x00a\x00p\x00p\x00l\x00e\x00/\x00h\x00e\x00a\x00r\x00t\x00p\x00u\x00l\x00s\x00e\x00.\x00p\x00n\x00g\x00?\x00v\x00=\x009' @ 927 : 1 .. (end); will stop at (end)

@@ -1,0 +1,5 @@
+2020/09/29-22:21:08.074 4800 Reusing MANIFEST /home/dyear/.config/chromium/Default/IndexedDB/https_www.bwsl.wang_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/29-22:21:54.610 2100 Level-0 table #5: started
+2020/09/29-22:21:54.618 2100 Level-0 table #5: 85793 bytes OK
+2020/09/29-22:21:54.623 2100 Delete type=0 #3
+2020/09/29-22:21:54.624 2100 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

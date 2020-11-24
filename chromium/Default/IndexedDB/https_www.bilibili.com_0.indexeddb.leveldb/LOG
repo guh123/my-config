@@ -1,0 +1,15 @@
+2020/11/18-09:19:20.124 2dc484 Reusing MANIFEST /home/dyear/.config/chromium/Default/IndexedDB/https_www.bilibili.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/18-09:19:20.124 2dc484 Recovering log #7
+2020/11/18-09:19:20.124 2dc484 Reusing old log /home/dyear/.config/chromium/Default/IndexedDB/https_www.bilibili.com_0.indexeddb.leveldb/000007.log 
+2020/11/18-09:28:52.828 2e0c99 Level-0 table #12: started
+2020/11/18-09:28:52.833 2e0c99 Level-0 table #12: 5329 bytes OK
+2020/11/18-09:28:52.839 2e0c99 Delete type=0 #7
+2020/11/18-09:28:52.839 2e0c99 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/18-09:28:52.839 2e0c99 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x03\x00\x00\x00\x0e\xfar\xacA' @ 3141 : 0
+2020/11/18-09:28:52.839 2e0c99 Compacting 1@1 + 1@2 files
+2020/11/18-09:28:52.842 2e0c99 Generated table #13@1: 22 keys, 1159 bytes
+2020/11/18-09:28:52.843 2e0c99 Compacted 1@1 + 1@2 files => 1159 bytes
+2020/11/18-09:28:52.847 2e0c99 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/18-09:28:52.847 2e0c99 Delete type=2 #9
+2020/11/18-09:28:52.847 2e0c99 Delete type=2 #12
+2020/11/18-09:28:52.848 2e0c99 Manual compaction at level-1 from '\x00\x01\x01\x02\x03\x00\x00\x00\x0e\xfar\xacA' @ 3141 : 0 .. (end); will stop at (end)

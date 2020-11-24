@@ -1,0 +1,5 @@
+2020/10/26-11:51:30.886 5e3ac Reusing MANIFEST /home/dyear/.config/microsoft-edge-dev/Default/IndexedDB/https_ntp.msn.cn_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/26-11:52:03.030 5e3fa Level-0 table #5: started
+2020/10/26-11:52:03.036 5e3fa Level-0 table #5: 12159 bytes OK
+2020/10/26-11:52:03.041 5e3fa Delete type=0 #3
+2020/10/26-11:52:03.041 5e3fa Manual compaction at level-0 from (begin) .. (end); will stop at (end)

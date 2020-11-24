@@ -1,0 +1,212 @@
+[2020-11-01 17:14:21.258] [exthost] [info] extension host started
+[2020-11-01 17:14:21.409] [exthost] [info] ExtensionService#_doActivateExtension vscode.python {"startup":false,"extensionId":{"value":"vscode.python","_lower":"vscode.python"},"activationEvent":"onLanguage:python"}
+[2020-11-01 17:14:21.409] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/python/dist/pythonMain
+[2020-11-01 17:14:21.415] [exthost] [info] ExtensionService#_doActivateExtension golang.go {"startup":false,"extensionId":{"value":"golang.go","_lower":"golang.go"},"activationEvent":"onLanguage:go"}
+[2020-11-01 17:14:21.415] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dyear/.vscode-oss/extensions/golang.go-0.17.2/dist/goMain.js
+[2020-11-01 17:14:21.621] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"extensionId":{"value":"vscode.php-language-features","_lower":"vscode.php-language-features"},"activationEvent":"onLanguage:php"}
+[2020-11-01 17:14:21.621] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/php-language-features/dist/phpMain
+[2020-11-01 17:14:21.640] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onDebugDynamicConfigurations"}
+[2020-11-01 17:14:21.640] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/ms-vscode.js-debug/src/extension.js
+[2020-11-01 17:14:22.241] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-11-01 17:14:22.241] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2020-11-01 17:14:22.252] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-11-01 17:14:22.252] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/emmet/dist/node/emmetNodeMain
+[2020-11-01 17:14:22.287] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-11-01 17:14:22.287] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/git/dist/main
+[2020-11-01 17:14:22.362] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-11-01 17:14:22.362] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/merge-conflict/dist/mergeConflictMain
+[2020-11-01 17:14:22.368] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-11-01 17:14:22.368] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/search-result/dist/extension.js
+[2020-11-01 17:14:22.726] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-11-01 17:14:22.726] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/github/dist/extension.js
+[2020-11-01 17:14:22.751] [exthost] [info] eager extensions activated
+[2020-11-01 18:47:43.111] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:markdown"}
+[2020-11-01 18:47:43.111] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/extension-editing/dist/extensionEditingMain
+[2020-11-01 18:47:43.129] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features {"startup":false,"extensionId":{"value":"vscode.markdown-language-features","_lower":"vscode.markdown-language-features"},"activationEvent":"onLanguage:markdown"}
+[2020-11-01 18:47:43.129] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/markdown-language-features/dist/extension
+[2020-11-01 18:47:43.175] [exthost] [info] ExtensionService#_doActivateExtension robole.marky-dynamic {"startup":false,"extensionId":{"value":"robole.marky-dynamic","_lower":"robole.marky-dynamic"},"activationEvent":"onLanguage:markdown"}
+[2020-11-01 18:47:43.176] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dyear/.vscode-oss/extensions/robole.marky-dynamic-0.1.0/dist/extension.js
+[2020-11-01 18:47:43.179] [exthost] [info] ExtensionService#_doActivateExtension robole.marky-edit {"startup":false,"extensionId":{"value":"robole.marky-edit","_lower":"robole.marky-edit"},"activationEvent":"onLanguage:markdown"}
+[2020-11-01 18:47:43.179] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dyear/.vscode-oss/extensions/robole.marky-edit-0.2.0/dist/extension.js
+[2020-11-01 18:47:43.181] [exthost] [info] ExtensionService#_doActivateExtension robole.marky-stats {"startup":false,"extensionId":{"value":"robole.marky-stats","_lower":"robole.marky-stats"},"activationEvent":"onLanguage:markdown"}
+[2020-11-01 18:47:43.181] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dyear/.vscode-oss/extensions/robole.marky-stats-0.1.0/dist/extension.js
+[2020-11-01 18:47:43.541] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:47:43.542] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:47:44.681] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:47:44.681] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:47:44.964] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:47:44.964] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:47:45.543] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:47:45.543] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:47:46.642] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:47:46.642] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:47:47.185] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:47:47.185] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:47:47.617] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:47:47.617] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:48:48.992] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:48:48.992] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:48:51.022] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:48:51.022] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:48:51.790] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:48:51.790] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:48:52.081] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:48:52.081] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:48:52.648] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:48:52.648] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:48:54.004] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:48:54.004] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:48:54.894] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:48:54.894] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:48:56.047] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:48:56.047] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:48:58.552] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:48:58.552] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:48:58.951] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:48:58.951] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:03.351] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:49:03.352] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:03.891] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:49:03.891] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:04.652] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:49:04.653] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:06.606] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:49:06.606] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:07.903] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:49:07.903] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:10.298] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:49:10.298] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:11.466] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:49:11.466] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:12.031] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:49:12.032] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:12.944] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:49:12.944] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:13.837] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:49:13.837] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:14.514] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:49:14.514] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:14.866] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:49:14.866] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:17.567] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:49:17.567] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:17.943] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:49:17.943] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:18.576] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:49:18.576] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:19.321] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:49:19.321] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:19.694] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:49:19.694] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:20.351] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:49:20.351] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:20.878] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:49:20.878] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)

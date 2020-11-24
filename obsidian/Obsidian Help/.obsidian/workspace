@@ -1,0 +1,142 @@
+{
+  "main": {
+    "id": "c1d40c8911a2bdae",
+    "type": "split",
+    "children": [
+      {
+        "id": "79680534204cf05a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Start here.md",
+            "mode": "source"
+          }
+        },
+        "group": "9e89cdc46d413d45"
+      },
+      {
+        "id": "64f5e83f6259045f",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Start here.md"
+          }
+        },
+        "group": "9e89cdc46d413d45"
+      },
+      {
+        "id": "37f00036387281be",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Start here.md",
+            "mode": "preview"
+          }
+        },
+        "group": "9e89cdc46d413d45"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f14e836c4b7d26f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "277b2d8b94affdcc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "751b9e6a4c4e7283",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "3430435b1033eec3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#fuck",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0407fe132a52078b",
+    "type": "split",
+    "children": [
+      {
+        "id": "11b5ef977b5ad343",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fda0f4e93190755a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Start here.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fddd94536105c965",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {}
+            }
+          },
+          {
+            "id": "315ca796b484aacc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Start here.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "lastOpenFiles": [
+    "Start here.md",
+    "Add-on services/Obsidian Publish.md",
+    "How to/Basic Note Taking.md",
+    "Credits.md",
+    "Advanced topics/Insider builds.md",
+    "How to/Embed files.md",
+    "Advanced topics/Catalyst license.md",
+    "How to/Working with tags.md",
+    "Advanced topics/Commercial license.md",
+    "Obsidian.md"
+  ]
+}

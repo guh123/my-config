@@ -1,0 +1,5 @@
+2020/10/25-14:13:45.273 5e9c9 Reusing MANIFEST /home/dyear/.config/chromium/Default/IndexedDB/https_forum.xda-developers.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/25-14:14:15.635 5d830 Level-0 table #5: started
+2020/10/25-14:14:15.639 5d830 Level-0 table #5: 379 bytes OK
+2020/10/25-14:14:15.643 5d830 Delete type=0 #3
+2020/10/25-14:14:15.643 5d830 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

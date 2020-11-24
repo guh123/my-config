@@ -1,0 +1,5 @@
+2020/10/24-21:09:36.950 d59 Reusing MANIFEST /home/dyear/.config/chromium/Default/IndexedDB/https_b5faee4fbcadafa5f5982dbde7148a02.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/24-21:09:45.159 1d8e Level-0 table #5: started
+2020/10/24-21:09:45.163 1d8e Level-0 table #5: 439 bytes OK
+2020/10/24-21:09:45.169 1d8e Delete type=0 #3
+2020/10/24-21:09:45.169 1d8e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

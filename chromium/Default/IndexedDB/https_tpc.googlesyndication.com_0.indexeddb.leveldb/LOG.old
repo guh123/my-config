@@ -1,0 +1,8 @@
+2020/10/06-12:13:29.669 59265 Reusing MANIFEST /home/dyear/.config/chromium/Default/IndexedDB/https_tpc.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/06-12:13:29.669 59265 Recovering log #10
+2020/10/06-12:13:29.669 59265 Reusing old log /home/dyear/.config/chromium/Default/IndexedDB/https_tpc.googlesyndication.com_0.indexeddb.leveldb/000010.log 
+2020/10/06-12:13:32.272 57b6 Level-0 table #14: started
+2020/10/06-12:13:32.273 57b6 Level-0 table #14: 0 bytes OK
+2020/10/06-12:13:32.279 57b6 Delete type=0 #10
+2020/10/06-12:13:32.279 57b6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/06-12:13:32.280 57b6 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

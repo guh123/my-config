@@ -1,0 +1,33 @@
+{
+   "author": "org by truedread ，modify by https://t.me/Luv_sic\t",
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "img/icon128.png"
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "content_script.js" ],
+      "matches": [ "*://assets.nflxext.com/*/ffe/player/html/*", "*://www.assets.nflxext.com/*/ffe/player/html/*", "*://netflix.com/*", "*://www.netflix.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "在EdgeChromium上使用最高4K画质串流并且享受DDPlus音质",
+   "icons": {
+      "128": "img/icon128.png",
+      "48": "img/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAugNFKtAY7gfXzhl9JkTHP0tkIpKmOMVPX7GI9lAEBk83kGFG/NO42D0WjRH0cTXfNycVKNnNRVMrOvTxBhP0l1XSNkKgPPAw9hieJzIrEp3kz9LYEp3gxRRn/RM8K7a5oVo+ppqTmKQY5azXaJ9wxFFH6Ka67bUnxqUkWF5ruCsl1PXICMhWcwfGrgRM3kxQIAnt4jG9HJSq938NTwBkyxfsXIHVDiq5K1qSsvbNPnm/K5hLNwmumcxao274lbrRqr4yyO8nIrDUAxkE4jlYZxjLiEdH7wAjq0WzVwKpwRHyZDm5S1YNoa/9S8ZXswkW0SSI4WQVoJFBPHgpIbvW4wIDAQAB",
+   "manifest_version": 2,
+   "name": "Netflix 5.1DDplus For EdgeChromium",
+   "options_ui": {
+      "open_in_tab": false,
+      "page": "pages/options.html"
+   },
+   "permissions": [ "storage", "webRequest", "webRequestBlocking", "*://assets.nflxext.com/*/ffe/player/html/*", "*://www.assets.nflxext.com/*/ffe/player/html/*", "*://netflix.com/*", "*://www.netflix.com/*" ],
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "1.1",
+   "web_accessible_resources": [ "netflix_max_bitrate.js", "cadmium-playercore-6.0026.007.031.js" ]
+}

@@ -1,0 +1,149 @@
+<html>
+    <head>
+        <script src="../vendor/babelpolyfill/babel-polyfill-6.26.0.js"></script>
+        <script src="../vendor/sanitize/sanitize.js"></script>
+        <link rel="stylesheet" type="text/css" href="../css/reader-view.css" />
+        <link rel="stylesheet" type="text/css" href="../css/icon.css" />
+    </head>
+    <body>
+
+        <div id="reader-view-bg">
+        </div>
+
+        <div id="reader-header">
+            <div id="reader-close" class="iclose">
+            </div>
+
+            <div id="reader-view-font">
+                A
+                <div id="font-drop" class="idrop close"></div>
+            </div>
+
+            <div id="reader-edit">
+                <div id="edit-reader-view" class="itext-note">
+                </div>
+                Edit
+            </div>
+
+            <div id="reader-save">
+                <img src="../assets/icons/icon@2x.png" id="save-reader-view" />
+                <div id="nb-save-text">
+                    Save
+                </div>
+            </div>
+        </div>
+        
+        <div id="reader-view-wrap" class="lato">
+            
+            <div id="reader-data">
+                <div id="reader-edit-cancel">
+                    Cancel
+                </div>
+                <div id="reader-title" contenteditable="false">
+                </div>
+                <div id="reader-edit-save">
+                    Save
+                </div>
+                <article id="reader-content" contenteditable="false"></article>
+                <div id="edit-footer">
+                    <div id="color-picker" class="icolor-picker"></div>
+                </div>
+                <dots-loading>
+                </dots-loading>
+            </div>
+            
+            <div id="reader-view-overlay">
+            </div>
+
+           <div id="readerViewSettingsContainer" class="close">
+                <div id="sizeWrapper">
+                    <table style=" height: 30px; width: 165px; margin-left: 4px; border-radius: 5px;text-align:center;" id="sliderSpan"> 
+                        <tbody>
+                            <tr><td>
+                                <span class="smallFont" id="smallFont">
+                                    A
+                                </span>
+                                <input type="range" value="20" id="fontRange" style="vertical-align: middle;height: 0; border: 1px solid rgb(144, 144, 144);">
+                                <span class="bigFont" id="bigFont">
+                                    A
+                                </span> 
+                            </td></tr> 
+                        </tbody>
+                    </table>
+                </div>
+                <div id="fontFamilyContainer">
+                    <!-- <div id="notoSerif">Noto Serif</div>
+                    <div id="openSans">Open Sans</div>
+                    <div id="lato">Lato</div>
+                    <div id="merriweather">Merriweather</div>
+                    <div id="charter">Charter</div>
+                    <div id="ptsans">PT Sans</div> -->
+                    <div id="serif" style="font-family: serif">
+                        Serif
+                        <div class="font-checked"></div>
+                    </div>
+                    <div id="sansSerif" style="font-family: sans-serif">Sans serif</div>
+                </div> 
+                <div id="nightModeContainer">
+                    <span id="nightmodeLabel">Night Mode</span>
+                    <span id="nightmodeImage">
+                        
+                        <label class="switch">
+                            <input type="checkbox" id="nightModeCheckbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </span>
+                </div>
+            </div>
+        
+            <div id="book-list-wrap">
+                <div id="reader-choose-book"> 
+                    Choose Notebook
+                </div>
+                <div id="reader-book-list">
+                </div>
+
+                <tag-container>
+                </tag-container>
+                
+                <div id="save-footer">
+                    <div id="reminder" class="ireminder"></div>
+                    <div id="book-list-cancel">
+                        Cancel
+                    </div>
+                    <div id="book-list-save">
+                        Save
+                    </div>
+                </div>
+
+                <dots-loading>
+                </dots-loading>
+            </div>
+
+        </div>
+    </body>
+    <script src="../dist/reader-view.bundle.js"></script>
+    <script src="../dist/dots-loading.bundle.js"></script>
+    <script src="../dist/nb-color-picker.bundle.js"></script>
+    
+    <script src="../dist/choose-reminder.bundle.js"></script>
+    <script src="../dist/tag-container.bundle.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,900" /> 
+
+    <!-- <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Noto+Serif" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather" /> -->
+
+    <script src="../vendor/jquery/jquery-3.1.0.min.js"></script>
+    <script src="../vendor/Datetimepicker/zcomponents.js"></script>
+    <script src="../vendor/Datetimepicker/zdate.js"></script>
+    <script src="../vendor/Datetimepicker/zdatetimefield.js"></script>
+    <script src="../vendor/Datetimepicker/zdatetimepicker.js"></script>
+    <script src="../vendor/Datetimepicker/zlocale.js"></script>
+    <script src="../vendor/Datetimepicker/zposition.js"></script>   
+    <link rel="stylesheet" type="text/css" href="../vendor/Datetimepicker/zohocomponents.css">
+    </link>
+
+</html>

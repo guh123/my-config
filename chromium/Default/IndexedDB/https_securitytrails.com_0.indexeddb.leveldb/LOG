@@ -1,0 +1,5 @@
+2020/10/07-21:08:23.818 af72 Reusing MANIFEST /home/dyear/.config/chromium/Default/IndexedDB/https_securitytrails.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/07-21:09:36.432 c1aa Level-0 table #5: started
+2020/10/07-21:09:36.440 c1aa Level-0 table #5: 6446 bytes OK
+2020/10/07-21:09:36.445 c1aa Delete type=0 #3
+2020/10/07-21:09:36.445 c1aa Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,8 @@
+2020/11/23-00:49:53.721 214046 Reusing MANIFEST /home/dyear/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/23-00:49:53.721 214046 Recovering log #127
+2020/11/23-00:49:53.721 214046 Reusing old log /home/dyear/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000127.log 
+2020/11/23-00:49:56.203 214044 Level-0 table #131: started
+2020/11/23-00:49:56.203 214044 Level-0 table #131: 0 bytes OK
+2020/11/23-00:49:56.208 214044 Delete type=0 #127
+2020/11/23-00:49:56.208 214044 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/23-00:49:56.208 214044 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

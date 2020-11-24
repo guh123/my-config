@@ -1,0 +1,5 @@
+2020/10/26-13:09:18.347 8912f Reusing MANIFEST /home/dyear/.config/chromium/Default/IndexedDB/https_secureapi.eximbay.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/26-13:09:26.412 89220 Level-0 table #5: started
+2020/10/26-13:09:26.415 89220 Level-0 table #5: 1253 bytes OK
+2020/10/26-13:09:26.421 89220 Delete type=0 #3
+2020/10/26-13:09:26.421 89220 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

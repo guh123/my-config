@@ -1,0 +1,5 @@
+2020/09/29-22:16:30.436 1916 Reusing MANIFEST /home/dyear/.config/chromium/Default/IndexedDB/https_www.lagou.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/29-22:16:32.981 2100 Level-0 table #5: started
+2020/09/29-22:16:32.985 2100 Level-0 table #5: 1258 bytes OK
+2020/09/29-22:16:32.992 2100 Delete type=0 #3
+2020/09/29-22:16:32.992 2100 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

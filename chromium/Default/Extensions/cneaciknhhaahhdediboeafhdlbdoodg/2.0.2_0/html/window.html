@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+    <head>  
+        <script src="../vendor/babelpolyfill/babel-polyfill-6.26.0.js"></script>
+        <script src="../vendor/webcomponents-hi-sd-ce.js"></script>
+        <script src="../template/component-manager.js"></script>
+        <style>
+
+            html {
+                overflow: hidden;
+            }
+
+            body {
+                font-family: sans-serif;
+                font-family: "Source Sans Pro";
+                opacity: 1;
+                animation: fadeOut 0.3s forwards linear;
+                color: #212121;
+            }
+            
+            @keyframes fadeOut {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+
+            .shell-loading {
+                animation: app-load 2s forwards linear infinite;
+                -webkit-animation: app-load 2s forwards linear infinite;
+                -moz-animation: app-load 2s forwards linear infinite;
+                -o-animation: app-load 2s forwards linear infinite;
+                background: #f6f7f8;
+                background: linear-gradient(to right, #eeeeee 8%, #e7e7e7 18%, #eeeeee 33%);
+            }
+
+            @-webkit-keyframes app-load {
+                0% {
+                    background-position: -468px 0px;
+                }
+                100% {
+                    background-position: 468px 0px;
+                }
+            }
+
+            @-moz-keyframes app-load {
+                0% {
+                    background-position: -468px 0px;
+                }
+                100% {
+                    background-position: 468px 0px;
+                }
+            }
+
+            @-o-keyframes app-load {
+                0% {
+                    background-position: -468px 0px;
+                }
+                100% {
+                    background-position: 468px 0px;
+                }
+            }
+
+            @keyframes app-load {
+                0% {
+                    background-position: -468px 0px;
+                }
+                100% {
+                    background-position: 468px 0px;
+                }
+            }
+
+            .transition-all {
+                -webkit-transition: all 0.3s linear;
+                -moz-transition: all 0.3s linear;
+                -o-transition: all 0.3s linear;
+                transition: all 0.3s linear;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="window-wrap">
+            <on-boarding id="on-boarding">
+            </on-boarding>
+        </div>
+
+        <script src="../dist/on-boarding.bundle.js"></script>
+        <script src="../dist/main-page.bundle.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="../css/icon.css">
+        
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,900">
+        </link>
+
+        <script src="../vendor/sanitize/sanitize.js"></script>
+
+        <script src="../vendor/jquery/jquery-3.1.0.min.js"></script>
+        <script src="../vendor/Datetimepicker/zcomponents.js"></script>
+        <script src="../vendor/Datetimepicker/zdate.js"></script>
+        <script src="../vendor/Datetimepicker/zdatetimefield.js"></script>
+        <script src="../vendor/Datetimepicker/zdatetimepicker.js"></script>
+        <script src="../vendor/Datetimepicker/zlocale.js"></script>
+        <script src="../vendor/Datetimepicker/zposition.js"></script>
+        <link rel="stylesheet" type="text/css" href="../vendor/Datetimepicker/zohocomponents.css">
+        </link>
+
+    </body>
+</html>

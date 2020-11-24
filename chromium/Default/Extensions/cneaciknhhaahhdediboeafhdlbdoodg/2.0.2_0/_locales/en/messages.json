@@ -1,0 +1,158 @@
+{
+   "Capture": {
+      "message": "Capture"
+   },
+   "ClipSelectedText": {
+      "message": "Add selected content"
+   },
+   "ClipThisPage": {
+      "message": "Clip this page"
+   },
+   "ContentSaved": {
+      "message": "Content Saved"
+   },
+   "Default": {
+      "message": "default"
+   },
+   "DontHaveZAccount": {
+      "message": "Don't have a Zoho account?"
+   },
+   "ExtensionDescription": {
+      "message": "This extension helps you create note in Zoho Notebook"
+   },
+   "ExtensionName": {
+      "message": "Zoho Notebook"
+   },
+   "FullPage": {
+      "message": "Full page"
+   },
+   "Image": {
+      "message": "Image"
+   },
+   "IntoYour": {
+      "message": "into your"
+   },
+   "LoginToZoho": {
+      "message": "login to Zoho to save notes..."
+   },
+   "Notebook": {
+      "message": "notebook"
+   },
+   "SaveContentIn": {
+      "message": "Saves the content in"
+   },
+   "SaveImage": {
+      "message": "Add image"
+   },
+   "SavePageLink": {
+      "message": "Create Link card"
+   },
+   "Saved": {
+      "message": "saved"
+   },
+   "SelectedText": {
+      "message": "Selected Text"
+   },
+   "SignIn": {
+      "message": "Sign in"
+   },
+   "SignUpNow": {
+      "message": "Sign Up Now"
+   },
+   "SimplifiedArticle": {
+      "message": "Reader View"
+   },
+   "Snapshot": {
+      "message": "Snapshot"
+   },
+   "SnapshotThisPage": {
+      "message": "Take screenshot"
+   },
+   "Source": {
+      "message": "Source"
+   },
+   "ToSaveContentInZoho": {
+      "message": "To Save content from web pages to Zoho Notebook, please sign in"
+   },
+   "alreadyHave": {
+      "message": "Already have a Zoho account?"
+   },
+   "appTitle": {
+      "message": "Download Notebook App"
+   },
+   "cancel": {
+      "message": "Cancel"
+   },
+   "chooseNotebook": {
+      "message": "Choose Notebook"
+   },
+   "clipExperience": {
+      "message": "We would really appreciate if you take time to share your experiences.How is your experience with Notebook Web Clipper?"
+   },
+   "createLinkCard": {
+      "message": "Create Link Card"
+   },
+   "email": {
+      "message": "Email :"
+   },
+   "feedback": {
+      "message": "Feedback"
+   },
+   "howitworksspan": {
+      "message": "See how it works"
+   },
+   "howsGoing": {
+      "message": "How's it going?"
+   },
+   "mobileApp": {
+      "message": "Mobile App"
+   },
+   "notify_title": {
+      "message": "Announcements"
+   },
+   "photonotetext": {
+      "message": "Upload"
+   },
+   "rateUs": {
+      "message": "Rate Us"
+   },
+   "readerView": {
+      "message": "Reader View"
+   },
+   "scanQR": {
+      "message": "Scan QR code from your phone to download"
+   },
+   "screenshot": {
+      "message": "Screenshot"
+   },
+   "seeMore": {
+      "message": "See More"
+   },
+   "send": {
+      "message": "Send"
+   },
+   "showADDPDF": {
+      "message": "Show 'Add PDF'"
+   },
+   "signOut": {
+      "message": "Sign Out"
+   },
+   "signin_action": {
+      "message": "Sign in"
+   },
+   "takeScreenshot": {
+      "message": "Take Screenshot"
+   },
+   "textnotetext": {
+      "message": "Write"
+   },
+   "tweetUs": {
+      "message": "Tweet Us"
+   },
+   "url": {
+      "message": "URL :"
+   },
+   "viewAllNotes": {
+      "message": "View Your Notes"
+   }
+}

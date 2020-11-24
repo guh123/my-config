@@ -1,0 +1,37 @@
+{
+   "app": {
+      "display_mode": "standalone",
+      "icon_color": "#FFD19F",
+      "launch": {
+         "web_url": "https://docs.rsshub.app/"
+      },
+      "linked_icons": [ {
+         "size": 192,
+         "url": "https://docs.rsshub.app/android-chrome-192x192.png"
+      }, {
+         "size": 384,
+         "url": "https://docs.rsshub.app/android-chrome-384x384.png"
+      } ],
+      "theme_color": "rgba(255,255,255,1)"
+   },
+   "description": "🍰 万物皆可 RSS",
+   "icons": {
+      "128": "icons/128.png",
+      "192": "icons/192.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "384": "icons/384.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "Hgmd6ZVdSg2uryOL2aZwnJTFlt0t7wYstRkjSWT8rL0=",
+   "name": "RSSHub",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://docs.rsshub.app/*" ],
+         "title": "RSSHub"
+      }
+   },
+   "version": "2020.9.26.7758"
+}

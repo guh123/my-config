@@ -1,0 +1,23 @@
+正在查找 Git: git
+将使用位于 git 的 Git 2.29.2
+> git rev-parse --git-dir
+Open repository: /home/dyear/go/src/github.com/guh123/SortUrl
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dyear/go/src/github.com/guh123/SortUrl/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :SortUrl.go
+> git ls-files --stage -- /home/dyear/go/src/github.com/guh123/SortUrl/SortUrl.go
+> git cat-file -s bf4ac945114dc2e0d3758fcd9224639f5dfe6580
+> git check-ignore -v -z --stdin
+> git show --textconv :.vscode/launch.json
+> git ls-files --stage -- /home/dyear/go/src/github.com/guh123/SortUrl/.vscode/launch.json
+> git cat-file -s 6217af90f91810db614e7abf29029a535d6639ca
+> git show --textconv :SortUrl.go
+> git ls-files --stage -- /home/dyear/go/src/github.com/guh123/SortUrl/SortUrl.go
+> git cat-file -s bf4ac945114dc2e0d3758fcd9224639f5dfe6580

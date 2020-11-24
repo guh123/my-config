@@ -1,0 +1,9 @@
+[2020-11-24 00:17:59.673] [sharedprocess] [info] main {"machineId":"033fb1252174899d023c6ce2c1482ad8534df8b4ea452c49687c0397df9fc6ac","windowId":2}
+[2020-11-24 00:18:02.006] [sharedprocess] [info] Installing extension: zhanghua.vscodium-language-pack-zh-cn
+[2020-11-24 00:18:02.688] [sharedprocess] [info] Downloaded extension: zhanghua.vscodium-language-pack-zh-cn undefined
+[2020-11-24 00:18:02.905] [sharedprocess] [info] Extracted extension to /home/dyear/.vscode-oss/extensions/.zhanghua.vscodium-language-pack-zh-cn-1.51.2: zhanghua.vscodium-language-pack-zh-cn
+[2020-11-24 00:18:02.905] [sharedprocess] [info] Renamed to /home/dyear/.vscode-oss/extensions/zhanghua.vscodium-language-pack-zh-cn-1.51.2
+[2020-11-24 00:18:02.906] [sharedprocess] [info] Installation completed. zhanghua.vscodium-language-pack-zh-cn
+[2020-11-24 00:18:02.916] [sharedprocess] [info] Extensions installed successfully: zhanghua.vscodium-language-pack-zh-cn
+[2020-11-24 00:18:39.692] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-11-24 00:18:39.693] [sharedprocess] [info] Removing unused language pack: 820d313a322249e4ac524b91407d04b0.zh-cn

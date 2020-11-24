@@ -1,0 +1,16 @@
+2020/11/18-16:50:10.955 435bc Reusing MANIFEST /home/dyear/.config/chromium/Default/IndexedDB/https_www.remnote.io_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/18-16:50:22.538 3fb6f Level-0 table #5: started
+2020/11/18-16:50:22.568 3fb6f Level-0 table #5: 1263983 bytes OK
+2020/11/18-16:50:22.574 3fb6f Delete type=0 #3
+2020/11/18-16:51:04.694 3fb6f Level-0 table #7: started
+2020/11/18-16:51:04.702 3fb6f Level-0 table #7: 239677 bytes OK
+2020/11/18-16:51:04.707 3fb6f Delete type=0 #4
+2020/11/18-16:51:04.708 3fb6f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/18-16:51:04.708 3fb6f Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x09"\x03\x00\x10\xdc\xc2\xa8]wB\x00\x01\x11\x00f\x00x\x00m\x00x\x00z\x003\x00M\x00y\x00u\x00N\x00W\x00Q\x006\x00v\x00t\x00q\x00Y' @ 48755 : 0
+2020/11/18-16:51:04.708 3fb6f Compacting 1@1 + 1@2 files
+2020/11/18-16:51:04.738 3fb6f Generated table #8@1: 8034 keys, 675352 bytes
+2020/11/18-16:51:04.738 3fb6f Compacted 1@1 + 1@2 files => 675352 bytes
+2020/11/18-16:51:04.742 3fb6f compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/18-16:51:04.742 3fb6f Delete type=2 #7
+2020/11/18-16:51:04.742 3fb6f Delete type=2 #5
+2020/11/18-16:51:04.743 3fb6f Manual compaction at level-1 from '\x00\x01\x09"\x03\x00\x10\xdc\xc2\xa8]wB\x00\x01\x11\x00f\x00x\x00m\x00x\x00z\x003\x00M\x00y\x00u\x00N\x00W\x00Q\x006\x00v\x00t\x00q\x00Y' @ 48755 : 0 .. (end); will stop at (end)

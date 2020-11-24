@@ -1,0 +1,7 @@
+Tools environment: GOPATH=/home/dyear/go/
+Installing 1 tool at /home/dyear/go/bin in module mode.
+  dlv
+
+Installing github.com/go-delve/delve/cmd/dlv (/home/dyear/go/bin/dlv) SUCCEEDED
+
+All tools successfully installed. You are ready to Go :).

@@ -1,0 +1,48 @@
+<application>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/usr/bin/node" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="true" />
+    <property name="InstalledPluginsSearchHistory" value="vim&#10;vi&#10;rust&#10;/organization:JetBrains&#10;/outdated" />
+    <property name="MarketplacePluginsSearchHistory" value="vim&#10;spring&#10;s&#10;rust&#10;rus" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="SAVED_ANDROID_NPW_LANGUAGE" value="Kotlin" />
+    <property name="SAVED_ANDROID_PACKAGE" value="com.example" />
+    <property name="SettingsSearchHistory" value="rust" />
+    <property name="UITheme.relaunch" value="true" />
+    <property name="appcds.runOnSecondStart" value="IU-202.7660.26-2b36a1ed530eccf89ab9139f70da120122f957c163cb22edbcc3ce5b9c337141" />
+    <property name="build.toolwindow.Build Output.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
+    <property name="build.toolwindow.Sync.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
+    <property name="com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor" value="Sources" />
+    <property name="decompiler.legal.notice.accepted" value="true" />
+    <property name="defaultJdkConfigured" value="true" />
+    <property name="evlsprt3.202" value="12" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/IdeaProjects/feroxbuster&#10;/home/dyear/IdeaProjects/feroxbuster/Cargo.toml" />
+    <property name="file.gist.reindex.count" value="1" />
+    <property name="fileTypeChangedCounter" value="3" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="ideavim.statistics.timestamp" value="1604929919616" />
+    <property name="ignore.vm.options.env.vars" value="true" />
+    <property name="installed.kotlin.plugin.version" value="1.4.10-release-IJ2020.2-1" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="kotlin.lastUpdateCheck" value="1601966925488" />
+    <property name="kotlin.plugin.releaseDate" value="1.4.10-release-IJ2020.2-1:2020-09-10" />
+    <property name="lastSeenTip" value="neue-SpringGotoSymbol.html" />
+    <property name="lastTimeTipsWereShown" value="1606148720601" />
+    <property name="org.rust.lang.LAST_UPDATE" value="1606148725509" />
+    <property name="org.rust.lang.LAST_VERSION" value="0.3.132.3395-202" />
+    <property name="packagesearch.endpoint.url.fulltext" value="https://package-search.services.jetbrains.com/api/search/idea/fulltext" />
+    <property name="packagesearch.endpoint.url.suggest" value="https://package-search.services.jetbrains.com/api/search/idea/suggest" />
+    <property name="packagesearch.status.updated.ts" value="1606148709203" />
+    <property name="project.wizard.group" value="RUST_MODULE" />
+    <property name="project.wizard.template" value="Empty Project" />
+    <property name="seenTips" value="neue-HideWidgets.html,neue-db_tip_drag_csv_file_to_create_table.html,neue-local_history.html,neue-CloseOthers.html,Kotlin_project.html,neue-GoToInspection.html,neue-RemoveBreakpoint.html,neue-db_tip_forget_cached_schemas.html,neue-SpringGotoSymbol.html" />
+    <property name="shared.index.infrastructure.prop" value="4" />
+    <property name="spring.assinstant.initializr.last.known.server.url" value="https://start.spring.io" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+    <property name="ts.lib.d.ts.version" value="3.9.5" />
+  </component>
+</application>

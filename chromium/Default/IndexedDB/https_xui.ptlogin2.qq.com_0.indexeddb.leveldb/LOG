@@ -1,0 +1,15 @@
+2020/11/20-16:18:08.943 21f10b Reusing MANIFEST /home/dyear/.config/chromium/Default/IndexedDB/https_xui.ptlogin2.qq.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/20-16:18:08.943 21f10b Recovering log #31
+2020/11/20-16:18:08.943 21f10b Reusing old log /home/dyear/.config/chromium/Default/IndexedDB/https_xui.ptlogin2.qq.com_0.indexeddb.leveldb/000031.log 
+2020/11/20-16:18:17.115 21f411 Level-0 table #36: started
+2020/11/20-16:18:17.118 21f411 Level-0 table #36: 3972 bytes OK
+2020/11/20-16:18:17.123 21f411 Delete type=0 #31
+2020/11/20-16:18:17.123 21f411 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/20-16:18:17.123 21f411 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01%\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x001@' @ 846 : 1
+2020/11/20-16:18:17.123 21f411 Compacting 1@1 + 1@2 files
+2020/11/20-16:18:17.126 21f411 Generated table #37@1: 167 keys, 6015 bytes
+2020/11/20-16:18:17.126 21f411 Compacted 1@1 + 1@2 files => 6015 bytes
+2020/11/20-16:18:17.130 21f411 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/20-16:18:17.130 21f411 Delete type=2 #33
+2020/11/20-16:18:17.130 21f411 Delete type=2 #36
+2020/11/20-16:18:17.130 21f411 Manual compaction at level-1 from '\x00\x01\x01%\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x001@' @ 846 : 1 .. (end); will stop at (end)

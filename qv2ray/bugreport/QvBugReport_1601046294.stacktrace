@@ -1,0 +1,29 @@
+Signal: 1
+------- BEGIN QV2RAY CRASH REPORT -------
+#0: [4682095]  in qv2ray
+#1: [4689871]  in qv2ray
+#2: [140149798885023]  in /usr/lib/libc.so.6
+#3: [140149799638127] __poll in /usr/lib/libc.so.6
+#4: [140149736866183]  in /usr/lib/libglib-2.0.so.0
+#5: [140149736526880] g_main_context_iteration in /usr/lib/libglib-2.0.so.0
+#6: [140149809135899] QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) in /tmp/.mount_Qv2rayy8UtRx/usr/lib/libQt5Core.so.5
+#7: [140149808755465] QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) in /tmp/.mount_Qv2rayy8UtRx/usr/lib/libQt5Core.so.5
+#8: [140149808792242] QCoreApplication::exec() in /tmp/.mount_Qv2rayy8UtRx/usr/lib/libQt5Core.so.5
+#9: [4776388]  in qv2ray
+#10: [4475077]  in qv2ray
+#11: [140149798797649] __libc_start_main in /usr/lib/libc.so.6
+#12: [4633448]  in qv2ray
+#13: [18446744073709551615]  in [0xffffffffffffffff]
+Active Kernel Instances:
+[]
+Current Connection:
+{"connectionId":"null","groupId":"null"}
+
+
+Plugins:
+["Builtin Protocol Support","Qv2ray Core Workgroup","qvplugin_builtin_protocol","Enable built-in VMess, VLESS, SOCKS, HTTP, Shadowsocks, Dokodemo-door support"]
+
+
+GlobalConfig:
+{"advancedConfig":{"setAllowInsecure":false,"setSessionResumption":false,"testLatencyPeriodcally":false},"autoStartBehavior":0,"autoStartId":{"connectionId":"null","groupId":"null"},"config_version":14,"defaultRouteConfig":{"connectionConfig":{"bypassBT":false,"bypassCN":true,"bypassLAN":true,"dnsIntercept":false,"enableProxy":true,"v2rayFreedomDNS":false,"withLocalDNS":false},"dnsConfig":{"clientIp":"","hosts":{},"servers":[{"QV2RAY_DNS_IS_COMPLEX_DNS":false,"address":"1.1.1.1","domains":[],"expectIPs":[],"port":53},{"QV2RAY_DNS_IS_COMPLEX_DNS":false,"address":"8.8.8.8","domains":[],"expectIPs":[],"port":53},{"QV2RAY_DNS_IS_COMPLEX_DNS":false,"address":"8.8.4.4","domains":[],"expectIPs":[],"port":53}],"tag":""},"forwardProxyConfig":{"enableForwardProxy":false,"password":"","port":8008,"serverAddress":"127.0.0.1","type":"http","useAuth":false,"username":""},"overrideConnectionConfig":false,"overrideDNS":false,"overrideForwardProxyConfig":false,"overrideRoute":false,"routeConfig":{"domainStrategy":"","domains":{"block":[],"direct":[],"proxy":[]},"ips":{"block":[],"direct":[],"proxy":[]}}},"inboundConfig":{"httpSettings":{"account":{"pass":"","user":""},"port":8889,"sniffing":false,"useAuth":false},"listenip":"127.0.0.1","socksSettings":{"account":{"pass":"","user":""},"enableUDP":true,"localIP":"127.0.0.1","port":1089,"sniffing":false,"useAuth":false},"systemProxySettings":{"setSystemProxy":true},"tProxySettings":{"hasTCP":true,"hasUDP":false,"mode":"tproxy","port":12345,"tProxyIP":"127.0.0.1","tProxyV6IP":""},"useHTTP":true,"useSocks":true,"useTPROXY":false},"kernelConfig":{"enableAPI":true,"statsPort":15490,"v2AssetsPath_linux":"/home/dyear/.config/qv2ray/vcore/","v2AssetsPath_macx":"","v2AssetsPath_win":"","v2CorePath_linux":"/home/dyear/.config/qv2ray/vcore/v2ray","v2CorePath_macx":"","v2CorePath_win":""},"lastConnectedId":{"connectionId":"null","groupId":"null"},"logLevel":3,"networkConfig":{"address":"127.0.0.1","latencyRealPingTestURL":"https://www.google.com","latencyTestingMethod":11186536,"port":8000,"proxyType":0,"type":"http","userAgent":"Qv2ray/$VERSION WebRequestHelper"},"outboundConfig":{"mark":255},"pluginConfig":{"pluginStates":{"qvplugin_builtin_protocol":true},"portAllocationStart":15000,"v2rayIntegration":true},"uiConfig":{"graphConfig":{"colorConfig":{"$0":{"value1":{"B":63,"G":196,"R":134,"style":1,"width":1.5},"value2":{"B":255,"G":153,"R":50,"style":1,"width":1.5}},"$1":{"value1":{"B":63,"G":196,"R":134,"style":1,"width":1.5},"value2":{"B":255,"G":153,"R":50,"style":1,"width":1.5}},"$2":{"value1":{"B":240,"G":210,"R":0,"style":3,"width":1.5},"value2":{"B":42,"G":220,"R":235,"style":3,"width":1.5}}},"hasDirectStats":false,"useOutboundStats":false},"language":"zh_CN","maxJumpListCount":20,"maximumLogLines":500,"quietMode":false,"recentConnections":[],"theme":"Fusion","useDarkTheme":false,"useDarkTrayIcon":true,"useOldShareLinkFormat":false},"updateConfig":{"ignoredVersion":"","updateChannel":-1750462832}}
+------- END OF QV2RAY CRASH REPORT -------

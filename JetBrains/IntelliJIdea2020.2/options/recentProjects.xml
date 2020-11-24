@@ -1,0 +1,78 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/IdeaProjects/demo">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1iiFGD7CAiY3c8U85Gvi913NoXB">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-202.7660.26" />
+              <option name="buildTimestamp" value="1601973156698" />
+              <frame x="0" y="24" width="1336" height="742" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1602607605989" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/untitled2">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1ipbrPfb9jlJOQAqt4R0kiiIob8">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-202.7660.26" />
+              <option name="buildTimestamp" value="1601973165566" />
+              <frame x="0" y="24" width="1336" height="742" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1602638574669" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/untitled1">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1iUfm8laj64aJKvsRnfaBRFP2do">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-202.7660.26" />
+              <option name="buildTimestamp" value="1601973165566" />
+              <frame x="10" y="20" width="1346" height="728" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1602638829218" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/untitled">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1iRKo0HyOHwKOIfpy2efnYrX6nm">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-202.7660.26" />
+              <option name="buildTimestamp" value="1601973137460" />
+              <frame x="184" y="24" width="926" height="653" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1602724826800" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/feroxbuster">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1itSEFZyujYx3mSkbDatsPfRqV8">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-202.7660.26" />
+              <option name="buildTimestamp" value="1601973120969" />
+              <frame x="0" y="24" width="1356" height="742" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1606148711019" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/IdeaProjects" />
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/IdeaProjects/feroxbuster" />
+        <option value="$USER_HOME$/IdeaProjects/untitled" />
+        <option value="$USER_HOME$/IdeaProjects/untitled1" />
+        <option value="$USER_HOME$/IdeaProjects/untitled2" />
+        <option value="$USER_HOME$/IdeaProjects/demo" />
+      </list>
+    </option>
+  </component>
+</application>

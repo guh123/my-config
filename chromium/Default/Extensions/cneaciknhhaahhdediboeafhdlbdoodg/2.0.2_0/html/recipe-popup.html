@@ -1,0 +1,149 @@
+<html>
+    <head>
+        <script src="../vendor/babelpolyfill/babel-polyfill-6.26.0.js"></script>
+        <style>
+            .loading-wrap {
+                position: absolute;
+                top : 0;
+                left: 0;
+                right : 0;
+                bottom: 0;
+                width : 50px;
+                height: 6px;
+                margin: auto;
+            }
+        
+            .loading-wrap .each-dot {
+                background-color: #000000;
+                position: absolute;
+                border-radius: 50%;
+                width: 7px;
+                height: 7px;
+        
+                -webkit-animation: loading-dots 1.3s infinite;
+                -webkit-animation-fill-mode: both;
+        
+                -o-animation: loading-dots 1.3s infinite;
+                -o-animation-fill-mode: both;
+        
+                -moz-animation: loading-dots 1.3s infinite;
+                -moz-animation-fill-mode: both;
+        
+                animation: loading-dots 1.3s infinite;
+                animation-fill-mode: both;
+            }
+        
+            .night-mode .support-night-mode .each-dot {
+                background-color: #FFFFFF;
+            }
+        
+            .loading-wrap.white-dots .each-dot {
+                background-color: #FFFFFF;
+            }
+        
+            #dot-one {
+                left : 0;
+                top : 0;	
+            }
+        
+            #dot-two {
+                left : 17px;
+                top : 0;
+                -o-animation-delay: 0.3s;
+                -moz-animation-delay: 0.3s;
+                -webkit-animation-delay: 0.3s;
+                animation-delay: 0.3s;
+            }
+            
+            #dot-three {
+                left : 34px;
+                -o-animation-delay: 0.5s;
+                -moz-animation-delay: 0.5s;
+                -webkit-animation-delay: 0.5s;
+                animation-delay: 0.5s;
+            }
+        
+            @keyframes loading-dots {
+                0% {
+                    -webkit-transform: scale(1);
+                	-moz-transform: scale(1);
+                	-ms-transform: scale(1);
+                	-o-transform: scale(1);
+                	transform: scale(1);
+                }
+                20% {
+                    -webkit-transform: scale(1.3);
+                	-moz-transform: scale(1.3);
+                	-ms-transform: scale(1.3);
+                	-o-transform: scale(1.3);
+                	transform: scale(1.3);
+                }
+                50% {
+                    -webkit-transform: scale(1);
+                	-moz-transform: scale(1);
+                	-ms-transform: scale(1);
+                	-o-transform: scale(1);
+                	transform: scale(1);
+                }
+            }
+            
+            .each-book {
+                position: relative;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                font-size: 16px;
+                cursor: pointer;
+                text-overflow: ellipsis;
+                width: 220px;
+                height: 20px;
+                overflow: hidden;
+                white-space: nowrap;
+                line-height: 1;
+                text-align: left;
+            }
+
+            .each-book.selected {
+                color: rgb(2, 154, 252);
+            }
+        </style>
+    </head>
+    <body>
+        <div id="saveRecipeContainer" style="background-color: white; transition: all 0.3s linear 0s; box-sizing: border-box; font-family: Source Sans Pro; position: fixed; top:0; left:0; font-size: 16px; vertical-align: middle; box-shadow: 6px 11px 16px rgba(0, 0, 0, 0.23); border-radius: 5px; width: 300px; margin: 8px;">
+            <div id="saveRecipeTitle" style="border-bottom: 1px solid #e7e7e7"> <img src="../assets/icons/icon-128.png" id="logoImage" style="max-width: 32px;vertical-align: middle;display: initial;margin: 8px 16px;">
+                <span style="font-size:16px;font-weight:600;">
+                    Save Recipe to Notebook
+                </span>
+                <div class="iclose" id="closeRecipeImage" style="max-width: 24px; cursor: pointer;font-weight:bolder;float:right;margin:12px 16px;"></div>
+            </div>
+            <div style="width:100%;padding:8px 16px;box-sizing:border-box;color:black;">
+                <span style="line-height:1.4;vertical-align: middle;">
+                    Slow Cooker Creamy Chicken Taco Soup Recipe - Allrecipes.com
+                </span>
+            </div>
+            <div id="saveRecipetonotebook" style="position:relative;background-color:rgb(2, 154, 252);  cursor: pointer; color: white; border-radius: 4px; margin: 8px 16px; height: 40px; line-height: 40px; text-align: center;overflow:hidden;">
+                <div style="margin: auto 16px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;width: 180px;" id="showRecipemsg">
+                    Save to 'Default'
+                </div>
+                <img src="../assets/icons/downarrow.png" id="arrowImage" style="position:absolute;top:0px;right:0px;max-width: 12px;float:right;padding: 14px 16px;border-left: 1px solid rgba(0,0,0,0.3);filter:invert(1);" />
+            </div>
+
+            <div id="recipe-drop-down" style="background-color: white; position: absolute; left: 16px; top: 156px; width: 268px; height: 0px; font-size: 16px; cursor: pointer; overflow: auto; box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px; border-radius: 4px;">
+
+                <div class="loading-wrap">
+                    <div id="dot-one" class="each-dot">
+                    </div>
+                    <div id="dot-two" class="each-dot">
+                    </div>
+                    <div id="dot-three" class="each-dot">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </body>
+
+    <script src="../dist/recipe-popup.bundle.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/icon.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:" rel="stylesheet" id="notebookcxsansfont">
+</html>

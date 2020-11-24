@@ -1,0 +1,25 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/go/src/github.com/guh123/SortUrl">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1iXB6nW5E1WwMpcJIKBXenSIOGq">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-202.7319.61" />
+              <option name="buildTimestamp" value="1600241759261" />
+              <frame x="0" y="20" width="1346" height="728" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1605153124860" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/go/src/github.com/guh123/SortUrl" />
+      </list>
+    </option>
+  </component>
+</application>

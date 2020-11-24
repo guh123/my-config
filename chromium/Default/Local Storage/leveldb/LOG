@@ -1,0 +1,19 @@
+2020/11/24-14:06:49.606 227a Reusing MANIFEST /home/dyear/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2020/11/24-14:06:49.613 227a Recovering log #1171
+2020/11/24-14:06:49.617 227a Reusing old log /home/dyear/.config/chromium/Default/Local Storage/leveldb/001171.log 
+2020/11/24-14:13:12.484 3f77 Level-0 table #1175: started
+2020/11/24-14:13:12.489 3f77 Level-0 table #1175: 25915 bytes OK
+2020/11/24-14:13:12.495 3f77 Delete type=0 #1171
+2020/11/24-14:13:12.495 3f74 Compacting 4@0 + 3@1 files
+2020/11/24-14:13:12.555 3f74 Generated table #1176@0: 3867 keys, 2146846 bytes
+2020/11/24-14:13:12.607 3f74 Generated table #1177@0: 4595 keys, 2115303 bytes
+2020/11/24-14:13:12.627 3f74 Generated table #1178@0: 170 keys, 645903 bytes
+2020/11/24-14:13:12.627 3f74 Compacted 4@0 + 3@1 files => 4908052 bytes
+2020/11/24-14:13:12.631 3f74 compacted to: files[ 0 3 1 0 0 0 0 ]
+2020/11/24-14:13:12.631 3f74 Delete type=2 #1170
+2020/11/24-14:13:12.631 3f74 Delete type=2 #1172
+2020/11/24-14:13:12.631 3f74 Delete type=2 #1121
+2020/11/24-14:13:12.631 3f74 Delete type=2 #1175
+2020/11/24-14:13:12.631 3f74 Delete type=2 #1166
+2020/11/24-14:13:12.631 3f74 Delete type=2 #1168
+2020/11/24-14:13:12.631 3f74 Delete type=2 #1165

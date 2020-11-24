@@ -1,0 +1,13 @@
+file:///home/dyear/hello1.go {"mtime":1601949965415,"ctime":1601829498661,"size":9,"etag":"35p4c9cdo9","orphaned":false}
+package main
+
+import (
+	"fmt"
+	"sync"
+)
+	var sss sync.WaitGroup
+func main(){
+	fmt.Println("asd")
+	fmt.Println("123")
+	sss.Add
+}

@@ -1,0 +1,34 @@
+<application>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/usr/bin/node" />
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontFace" value="Dialog" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="GO_IDE_DEFAULT_PROJECT_PATH" value="$USER_HOME$/go/src" />
+    <property name="InstalledPluginsSearchHistory" value="toml&#10;t&#10;to&#10;tom&#10;/tag:Keymap" />
+    <property name="LayoutCode.codeCleanup" value="true" />
+    <property name="LayoutCode.optimizeImports" value="true" />
+    <property name="MarketplacePluginsSearchHistory" value="toml&#10;/tag:Keymap&#10;rust" />
+    <property name="PluginConfigurable.selectionTab" value="1" />
+    <property name="UITheme.relaunch" value="true" />
+    <property name="appcds.runOnSecondStart" value="GO-202.7319.61-37e0368d0c0a2b0eddb2d40c653414a4fd2408b383635bda1dbcbfbce5ef96a6" />
+    <property name="experimentalFeature.terminal.shell.command.handling" value="false" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/go/src/github.com/guh123/SortUrl" />
+    <property name="file.gist.reindex.count" value="10" />
+    <property name="go.init.cfg.2" value="true" />
+    <property name="go.init.cfg.line.markers" value="true" />
+    <property name="go.libraries.notification.had.been.shown" value="true" />
+    <property name="go.optimizeImportsByDefault" value="true" />
+    <property name="go.suggest.all.rc.was.enabled.once" value="true" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/go/src/github.com/guh123/SortUrl" />
+    <property name="org.jetbrains.plugins.go.LAST_UPDATE" value="1601964359098" />
+    <property name="org.jetbrains.plugins.go.LAST_VERSION" value="202.7319.61" />
+    <property name="terminal.shell.command.handling.was.disabled.once" value="true" />
+    <property name="ts.lib.d.ts.version" value="3.9.5" />
+  </component>
+</application>

@@ -1,0 +1,15 @@
+2020/11/21-11:43:07.349 21bb1 Reusing MANIFEST /home/dyear/.config/chromium/Default/IndexedDB/https_roamresearch.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/21-11:43:07.349 21bb1 Recovering log #15
+2020/11/21-11:43:07.349 21bb1 Reusing old log /home/dyear/.config/chromium/Default/IndexedDB/https_roamresearch.com_0.indexeddb.leveldb/000015.log 
+2020/11/21-13:21:03.006 56135 Level-0 table #20: started
+2020/11/21-13:21:03.011 56135 Level-0 table #20: 42619 bytes OK
+2020/11/21-13:21:03.016 56135 Delete type=0 #15
+2020/11/21-13:21:03.016 56135 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/21-13:21:03.016 56135 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x08\x01\x02\x01\x0d\x001\x006\x000\x005\x009\x000\x001\x009\x000\x008\x001\x006\x005' @ 2350 : 1
+2020/11/21-13:21:03.016 56135 Compacting 1@1 + 1@2 files
+2020/11/21-13:21:03.021 56135 Generated table #21@1: 276 keys, 16225 bytes
+2020/11/21-13:21:03.021 56135 Compacted 1@1 + 1@2 files => 16225 bytes
+2020/11/21-13:21:03.025 56135 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/21-13:21:03.026 56135 Delete type=2 #17
+2020/11/21-13:21:03.026 56135 Delete type=2 #20
+2020/11/21-13:21:03.026 56135 Manual compaction at level-1 from '\x00\x08\x01\x02\x01\x0d\x001\x006\x000\x005\x009\x000\x001\x009\x000\x008\x001\x006\x005' @ 2350 : 1 .. (end); will stop at (end)

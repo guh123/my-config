@@ -1,0 +1,15 @@
+2020/11/09-21:49:16.241 18c4e1 Reusing MANIFEST /home/dyear/.config/chromium/Default/IndexedDB/https_developer.android.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/09-21:49:16.242 18c4e1 Recovering log #7
+2020/11/09-21:49:16.242 18c4e1 Reusing old log /home/dyear/.config/chromium/Default/IndexedDB/https_developer.android.com_0.indexeddb.leveldb/000007.log 
+2020/11/09-21:50:49.787 18c4e1 Level-0 table #12: started
+2020/11/09-21:50:49.793 18c4e1 Level-0 table #12: 841 bytes OK
+2020/11/09-21:50:49.799 18c4e1 Delete type=0 #7
+2020/11/09-21:50:49.800 18c4e1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/09-21:50:49.800 18c4e1 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x01\x02\x00e\x00n\x00\x01\x13\x00l\x00a\x00n\x00g\x00u\x00a\x00g\x00e\x00_\x00p\x00r\x00e\x00f\x00e\x00r\x00e\x00n\x00c\x00e' @ 838 : 1
+2020/11/09-21:50:49.800 18c4e1 Compacting 1@1 + 1@2 files
+2020/11/09-21:50:49.803 18c4e1 Generated table #13@1: 30 keys, 811 bytes
+2020/11/09-21:50:49.803 18c4e1 Compacted 1@1 + 1@2 files => 811 bytes
+2020/11/09-21:50:49.810 18c4e1 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/09-21:50:49.810 18c4e1 Delete type=2 #9
+2020/11/09-21:50:49.810 18c4e1 Delete type=2 #12
+2020/11/09-21:50:49.810 18c4e1 Manual compaction at level-1 from '\x00\x01\x01 \x01\x02\x00e\x00n\x00\x01\x13\x00l\x00a\x00n\x00g\x00u\x00a\x00g\x00e\x00_\x00p\x00r\x00e\x00f\x00e\x00r\x00e\x00n\x00c\x00e' @ 838 : 1 .. (end); will stop at (end)

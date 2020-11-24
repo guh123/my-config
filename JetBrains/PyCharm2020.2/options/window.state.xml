@@ -1,0 +1,35 @@
+<application>
+  <component name="DimensionService">
+    <location key="find.popup.0.0.1366.768" x="380" y="135" />
+    <size key="GridCell.Tab.0.left.0.0.1366.768" width="1298" height="178" />
+    <size key="GridCell.Tab.0.center.0.0.1366.768" width="1298" height="178" />
+    <size key="GridCell.Tab.0.right.0.0.1366.768" width="1298" height="178" />
+    <size key="GridCell.Tab.0.bottom.0.0.1366.768" width="1298" height="178" />
+    <size key="find.popup.0.0.1366.768" width="606" height="522" />
+  </component>
+  <component name="WindowManager">
+    <frame x="10" y="34" width="1346" height="724" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+    </layout>
+  </component>
+  <component name="WindowStateApplicationService">
+    <state x="283" y="0" key="#Plugins" timestamp="1603375396734">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="283" y="0" key="#Plugins/0.0.1366.768" timestamp="1603375396734" />
+    <state x="471" y="105" key="FileChooserDialogImpl" timestamp="1603291662216">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="471" y="105" key="FileChooserDialogImpl/0.0.1366.768" timestamp="1603291662216" />
+    <state x="683" y="332" key="WELCOME_SCREEN" timestamp="1603300275968">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="683" y="332" key="WELCOME_SCREEN/0.0.1366.768" timestamp="1603300275968" />
+  </component>
+</application>

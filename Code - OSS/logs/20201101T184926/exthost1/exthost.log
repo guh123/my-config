@@ -1,0 +1,38 @@
+[2020-11-01 18:49:28.233] [exthost] [info] extension host started
+[2020-11-01 18:49:28.344] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:markdown"}
+[2020-11-01 18:49:28.344] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/extension-editing/dist/extensionEditingMain
+[2020-11-01 18:49:28.351] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features {"startup":false,"extensionId":{"value":"vscode.markdown-language-features","_lower":"vscode.markdown-language-features"},"activationEvent":"onLanguage:markdown"}
+[2020-11-01 18:49:28.351] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/markdown-language-features/dist/extension
+[2020-11-01 18:49:28.408] [exthost] [info] ExtensionService#_doActivateExtension robole.marky-dynamic {"startup":false,"extensionId":{"value":"robole.marky-dynamic","_lower":"robole.marky-dynamic"},"activationEvent":"onLanguage:markdown"}
+[2020-11-01 18:49:28.409] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dyear/.vscode-oss/extensions/robole.marky-dynamic-0.1.0/dist/extension.js
+[2020-11-01 18:49:28.410] [exthost] [info] ExtensionService#_doActivateExtension robole.marky-edit {"startup":false,"extensionId":{"value":"robole.marky-edit","_lower":"robole.marky-edit"},"activationEvent":"onLanguage:markdown"}
+[2020-11-01 18:49:28.410] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dyear/.vscode-oss/extensions/robole.marky-edit-0.2.0/dist/extension.js
+[2020-11-01 18:49:28.411] [exthost] [info] ExtensionService#_doActivateExtension robole.marky-stats {"startup":false,"extensionId":{"value":"robole.marky-stats","_lower":"robole.marky-stats"},"activationEvent":"onLanguage:markdown"}
+[2020-11-01 18:49:28.416] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dyear/.vscode-oss/extensions/robole.marky-stats-0.1.0/dist/extension.js
+[2020-11-01 18:49:28.417] [exthost] [info] ExtensionService#_doActivateExtension golang.go {"startup":false,"extensionId":{"value":"golang.go","_lower":"golang.go"},"activationEvent":"onLanguage:go"}
+[2020-11-01 18:49:28.417] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dyear/.vscode-oss/extensions/golang.go-0.17.2/dist/goMain.js
+[2020-11-01 18:49:28.472] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"extensionId":{"value":"vscode.php-language-features","_lower":"vscode.php-language-features"},"activationEvent":"onLanguage:php"}
+[2020-11-01 18:49:28.472] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/php-language-features/dist/phpMain
+[2020-11-01 18:49:28.480] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onDebugDynamicConfigurations"}
+[2020-11-01 18:49:28.480] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/ms-vscode.js-debug/src/extension.js
+[2020-11-01 18:49:28.712] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-11-01 18:49:28.715] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2020-11-01 18:49:28.724] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-11-01 18:49:28.724] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/emmet/dist/node/emmetNodeMain
+[2020-11-01 18:49:28.735] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-11-01 18:49:28.735] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/git/dist/main
+[2020-11-01 18:49:28.766] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-11-01 18:49:28.767] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/merge-conflict/dist/mergeConflictMain
+[2020-11-01 18:49:28.771] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-11-01 18:49:28.771] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/search-result/dist/extension.js
+[2020-11-01 18:49:29.250] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-11-01 18:49:29.250] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/github/dist/extension.js
+[2020-11-01 18:49:29.271] [exthost] [info] eager extensions activated
+[2020-11-01 18:49:29.349] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:49:29.350] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:51.977] [exthost] [error] [robole.marky-dynamic] provider FAILED
+[2020-11-01 18:49:51.977] [exthost] [error] TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)

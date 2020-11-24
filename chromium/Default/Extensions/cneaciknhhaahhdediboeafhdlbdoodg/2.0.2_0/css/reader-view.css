@@ -1,0 +1,828 @@
+#reader-view-bg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(247, 247, 247);
+    color: #212121;
+}
+
+#reader-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999999999;
+    height: 54px;
+    background-color: rgb(247, 247, 247);
+}
+
+.night-mode #reader-header {
+    background-color: rgb(66, 66, 66);
+    color: #FFFFFF;
+}
+
+.night-mode #reader-view-bg {
+    background-color: rgb(66, 66, 66);
+    color: #FFFFFF;
+}
+
+#reader-view-wrap {
+    font-size: 18px;
+    background-color: #FFFFFF;
+}
+
+#reader-view-wrap img,
+#reader-view-wrap svg
+ {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#reader-close {
+    position: fixed;
+    left: 26px;
+    top: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+    z-index: 999999999;
+    opacity: 0.6;
+}
+
+.night-mode #reader-close {
+    color: #FFFFFF;
+}
+
+#reader-data {
+    position: absolute;
+    line-height: 1.75em;
+    font-size: inherit;
+    background-color: inherit;
+    color: #212121;
+    width: 50%;
+    min-height: 70%;
+    z-index: 9999999;
+    top: 58px;
+    margin-left: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 50px;
+    padding-bottom: 3%;
+    -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+#reader-data * {
+    white-space: normal;
+    word-break: break-word;
+}
+
+.night-mode #reader-data {
+    background-color: rgb(51, 51, 51);
+    color: #FFFFFF;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.8) !important;
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.8) !important;
+    -moz-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.8) !important;
+}
+
+#reader-title {
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+    margin-left: -2.5px;
+    line-height: 1.04;
+    letter-spacing: -.028em;
+    color: inherit;
+    outline: none;
+}
+
+#reader-content {
+    outline: none;
+    padding-bottom: 44px;
+}
+
+#fontFamilyContainer {
+    position: absolute;
+    top: 51px;
+    width: 100%;
+}
+
+.night-mode #readerViewSettingsContainer {
+    background-color: rgb(51, 51, 51);
+    color: #FFFFFF;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.8) !important;
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.8) !important;
+    -moz-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.8) !important;
+    border: none;
+}
+
+#fontFamilyContainer div {
+    position: relative;
+    padding: 12px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+#sizeWrapper {
+    position: absolute;
+    top: 0;
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.night-mode #sizeWrapper {
+    border-bottom: 1px solid #666;
+}
+
+#nightModeContainer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    border-top: 1px solid #eeeeee;
+}
+
+.night-mode #nightModeContainer {
+    border-top: 1px solid #666;
+}
+
+#nightmodeLabel {
+    float: left;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+#nightmodeImage {
+    float: right;
+    margin-right: 8px;
+    position: relative;
+    top: 3px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 18px;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round::before {
+    border-radius: 50%;
+}
+
+.slider::before {
+    position: absolute;
+    content: "";
+    top: 1px;
+    height: 16px;
+    width: 15px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.font-checked {
+    position: absolute !important;
+    right: 22px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-image: url("../assets/icons/checked.png");
+    width: 0px;
+    height: 0px;
+    background-size: contain;
+}
+
+.night-mode .font-checked {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+.book-checked {
+    position: absolute !important;
+    right: 22px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-image: url("../assets/icons/checked.png");
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+}
+
+/* .night-mode .book-checked {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+} */
+
+.notoSerif {
+    font-family: "Noto Serif";
+}
+
+.openSans {
+    font-family: "Open Sans";
+}
+
+.lato {
+    font-family: "Lato";
+}
+
+.merriweather {
+    font-family: "Merriweather";
+}
+
+.charter {
+    font-family: "Charter";
+}
+
+.ptsans {
+    font-family: "PT Sans";
+}
+
+.serif {
+    font-family: serif;
+}
+
+.sansSerif {
+    font-family: sans-serif;
+}
+
+#readerViewSettingsNotebookcx {
+    position: fixed;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    vertical-align: middle;
+    top: 30%;
+    transition: all 300ms ease 0s;
+    opacity: 0.8;
+    z-index: 999999999;
+}
+
+.night-mode #readerViewSettingsNotebookcx {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+#readerViewSettingsNotebookcx.close {
+    right: 0;
+}
+
+#readerViewSettingsNotebookcx.open {
+    right: 220px;
+    transform: rotate(180deg);
+}
+
+#readerViewSettingsContainer {
+    z-index: 999999999;
+    background-color: white;
+    position: fixed; 
+    top: 40px;
+    left: 82px;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    cursor: pointer; 
+    vertical-align: middle; 
+    box-shadow: rgba(0, 0, 0, 0.1) 4px 5px 11px;
+    border: 1px solid rgb(238, 238, 238);
+    width: 196px;
+    height: 176px;
+    border-radius: 6px;
+}
+
+#readerViewSettingsContainer.close {
+    display: none;
+}
+
+#readerViewSettingsContainer.open {
+    display: block;
+}
+
+input:checked + .slider::before {
+    -webkit-transform: translateX(11.5px);
+    -ms-transform: translateX(11.5px);
+    transform: translateX(11.5px);
+}
+
+.night-mode #sliderSpan {
+    color: #FFFFFF;
+}
+
+#fontRange {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 130px;
+    outline: none;
+}
+
+.night-mode #fontRange {
+    border: 1px solid rgb(10, 10, 10) !important;
+}
+
+#book-list-wrap {
+    z-index: 999999999;
+    background-color: #f3f3f3;
+    width: 362px;
+    height: 482px;
+    position: fixed;
+    cursor: pointer;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    transition: all 300ms ease 0s;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    border-radius: 8px;
+    display: none;
+}
+
+#reader-choose-book {
+    font-size: 15px;
+    line-height: 42px;
+    padding-left: 22px;
+    font-weight: 600;
+}
+
+#reader-book-list {
+    background-color: white;
+    width: 320px;
+    height: 324px;
+    font-size: 16px;
+    cursor: pointer;
+    overflow: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 6px;
+    z-index: 2;
+    display: none;
+}
+
+.each-book {
+    position: relative;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 1;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+}
+
+.each-book.selected {
+    color: rgb(2, 154, 252);
+}
+
+#reader-view-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999999999;
+    display: none;
+}
+
+#reader-view-overlay.shade {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#reader-view-font {
+    position: fixed;
+    color: #212121;
+    font-size: 20px;
+    left: 82px;
+    top: 8px;
+    width: 22px;
+    opacity: 0.7;
+    padding: 7px;
+    line-height: 13px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Source Sans Pro";
+}
+
+#reader-view-font.highlight {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.night-mode #reader-view-font.highlight {
+    background-color: #999;
+}
+
+.night-mode #reader-view-font {
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+@font-face {
+    font-family: "nb-icons";
+    src: url("../assets/icons/icomoon.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.ireminder,
+.itext-note,
+.icolor-picker {
+    font-family: "nb-icons";
+}
+
+.itext-note:before {
+    content: "\e907";
+    font-size: 20px;
+}
+
+.ireminder:before {
+    content: "\e90b";
+    font-size: 21px;
+}
+
+.icolor-picker:before {
+    content: "\e904";
+    font-size: 24px;
+}
+
+#tag-overlay-reader {
+    position: relative !important;
+    bottom: 0 !important;
+    background-color: #f9f9f9 !important;
+    padding: 18px 18px !important;
+}
+
+#tag-content {
+    top: 0 !important;
+    height: auto !important;
+    overflow-y: hidden !important;
+}
+
+#tag-editor {
+    top: 6px !important;
+}
+
+.each-tag {
+    vertical-align: middle !important;
+    top: 6px !important;
+}
+
+[data-placeholder]:empty:after {
+    content: attr(data-placeholder);
+    color: inherit;
+    opacity: 0.25;
+    font-weight: 600;
+}
+
+#tag-container {
+    left: 18px !important;
+    height: initial !important;
+    width: 290px !important;
+    box-shadow: none !important;
+    overflow: auto !important;
+    background-color: #EEEEEE !important;
+    bottom: 69px !important;
+    max-height: 114px !important;
+    z-index: 2 !important;
+    background-color: white !important;
+
+}
+
+#tag-list-container,
+#tag-header,
+tag-container #tag-overlay,
+#add-exist-wrap {
+    display: none !important;
+}
+
+#save-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 56px;
+    border-top: 1px solid #EBEBEB;
+}
+
+#reminder {
+    position: relative;
+    top: 10px;
+    padding: 4px;
+    border-radius: 4px;
+    left: 18px;
+    display: inline-block;
+}
+
+#reader-edit {
+    position: fixed;
+    top: 12px;
+    right: 116px;
+    border: 1px solid #0f0e0e78;
+    font-size: 16px;
+    height: 30px;
+    padding: 0 8px;
+    line-height: 30px;
+    border-radius: 4px;
+    opacity: 0.9;
+    cursor: pointer;
+    font-family: "Source Sans Pro";
+    font-size: 14px;
+}
+
+#reader-save {
+    position: fixed;
+    top: 12px;
+    right: 26px;
+    border: 1px solid #0f0e0e78;
+    font-size: 16px;
+    height: 30px;
+    padding: 0 8px;
+    line-height: 30px;
+    border-radius: 4px;
+    opacity: 0.9;
+    cursor: pointer;
+    font-family: "Source Sans Pro";
+    font-size: 14px;
+}
+
+.night-mode #reader-save,
+.night-mode #reader-edit {
+    border: 1px solid #AAAAAA;
+}
+
+#edit-reader-view,
+#save-reader-view {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 6px;
+}
+
+#edit-reader-view {
+    padding-right: 4px;
+    position: relative;
+    top: -1px;
+    opacity: 0.7;
+}
+
+#save-reader-view {
+    position: relative;
+    top: -2px;
+    height: 14px;
+    width: 14px;
+}
+
+#book-list-save {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    line-height: 32px;
+    right: 22px;
+    height: 32px;
+    padding: 0px 12px;
+    border-radius: 4px;
+    background-color: #212121;
+    color: #FFF;
+    font-size: 14px;
+}
+
+#book-list-cancel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    line-height: 32px;
+    right: 95px;
+    height: 32px;
+    padding: 0px 12px;
+    border-radius: 4px;
+    background-color: #2c27271f;
+    opacity: 0.8;
+    font-size: 14px;
+}
+
+#nb-save-text {
+    display: inline-block;
+}
+
+#font-drop {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 8px;
+    left: 16px;
+}
+
+#font-drop.close {
+    transform: rotate(0deg);
+}
+
+#font-drop.open {
+    transform: rotate(180deg);
+    left: 26px;
+    top: 6px;
+}
+
+.each-book-image {
+    position: relative;
+    width: 32px;
+    height: 42px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #EEEEEE;
+    border-radius: 3px;
+    background-size: cover;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.25);
+}
+
+.each-book-name {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 12px;
+}
+
+choose-reminder {
+    position: absolute;
+    top: 38px;
+    left: 14px;
+    z-index: 2;
+}
+
+#reminder.highlight {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#reminder-remove {
+    top: 282px !important;
+    left: -4px !important;
+}
+
+#edit-footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-top: 1px solid #0f0e0e45;
+    display: none;
+    z-index: 2;
+}
+
+#edit-footer .icolor-picker {
+    display: inline-block;
+    padding: 4px 0px;
+    cursor: pointer;
+}
+
+.night-mode #edit-footer {
+    border-top: 1px solid #666;
+}
+
+#reader-edit-cancel {
+    position: absolute;
+    font-size: 15px;
+    top: 12px;
+    left : 26px;
+    cursor: pointer;
+    display: none;
+}
+
+#reader-edit-save {
+    position: absolute;
+    font-size: 15px;
+    top: 12px;
+    right: 26px;
+    cursor: pointer;
+    display: none;
+}
+
+.edit-mode #reader-header {
+    display: none;
+}
+
+.edit-mode #reader-data {
+    top: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
+    min-height: 100%;
+}
+
+.edit-mode #reader-title {
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    width: 50%;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    padding-top: 22px;
+    margin-bottom: 16px;
+}
+
+.edit-mode #reader-title:focus {
+    text-overflow: clip;
+}
+
+.edit-mode #reader-edit-cancel,
+.edit-mode #edit-footer,
+.edit-mode #reader-edit-save {
+    display: block;
+    font-family: "Source Sans Pro";
+}
+
+.edit-mode #reader-content {
+    overflow: auto;
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 22px;
+    z-index: 1;
+    background-color: inherit;
+}
+
+#bigFont {
+    font-size: 18px;
+}
+
+#smallFont {
+    font-size: 12px;
+}
+
+#tag-close {
+    display: none !important;
+}
+
+.night-mode .zdatetimepicker {
+    background-color : initial !important;
+    color : initial !important;
+}
+
+.night-mode .zdatetimepicker__monthyearnav {
+    color : initial !important;
+}
+
+.night-mode .zdatetimepicker__date {
+    color : initial !important;
+}
+
+.night-mode .zdatetimepicker__date.zdatetimepicker--today {
+    color : initial !important;
+}
+
+.night-mode .zdatetimepicker__monthyeargrid {
+    color : initial !important;
+}
+
+.night-mode #book-list-wrap .zdatetimepicker__timebar .zinputfield__textbox {
+    color : initial !important;
+}
+
+.night-mode .zdatetimepicker__date.is-selected {
+    color: #FFFFFF !important;
+}
+
+#book-list-wrap .loading-wrap {
+    z-index: 1;
+}
+
+.night-mode #reader-data a {
+    color: #5ba1e5;
+}

@@ -1,0 +1,26 @@
+2020/11/20-21:08:15.320 2bd861 Reusing MANIFEST /home/dyear/.config/chromium/Default/IndexedDB/https_logseq.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/20-21:08:15.320 2bd861 Recovering log #138
+2020/11/20-21:08:15.320 2bd861 Reusing old log /home/dyear/.config/chromium/Default/IndexedDB/https_logseq.com_0.indexeddb.leveldb/000138.log 
+2020/11/20-21:08:16.316 2bd860 Level-0 table #143: started
+2020/11/20-21:08:16.320 2bd860 Level-0 table #143: 13376 bytes OK
+2020/11/20-21:08:16.325 2bd860 Delete type=0 #138
+2020/11/20-21:08:16.326 2bd860 Manual compaction at level-0 from '\x00\x0f\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x10\x00\x00\x00' @ 0 : 0; will stop at (end)
+2020/11/20-21:08:18.317 2bd862 Level-0 table #145: started
+2020/11/20-21:08:18.321 2bd862 Level-0 table #145: 218 bytes OK
+2020/11/20-21:08:18.326 2bd862 Delete type=0 #142
+2020/11/20-21:08:18.326 2bd862 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02\x05\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 61641 : 0
+2020/11/20-21:08:18.326 2bd862 Compacting 1@0 + 1@1 files
+2020/11/20-21:08:18.330 2bd862 Generated table #146@0: 14 keys, 6761 bytes
+2020/11/20-21:08:18.330 2bd862 Compacted 1@0 + 1@1 files => 6761 bytes
+2020/11/20-21:08:18.335 2bd862 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/11/20-21:08:18.335 2bd862 Delete type=2 #143
+2020/11/20-21:08:18.335 2bd862 Delete type=2 #145
+2020/11/20-21:08:18.335 2bd862 Manual compaction at level-0 from '\x00\x00\x00\x002\x02\x05\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 61641 : 0 .. (end); will stop at (end)
+2020/11/20-21:08:18.335 2bd862 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01\x05\x00!\x00r\x00o\x00o\x00t' @ 61621 : 1
+2020/11/20-21:08:18.335 2bd862 Compacting 1@1 + 1@2 files
+2020/11/20-21:08:18.340 2bd862 Generated table #147@1: 242 keys, 53489 bytes
+2020/11/20-21:08:18.340 2bd862 Compacted 1@1 + 1@2 files => 53489 bytes
+2020/11/20-21:08:18.345 2bd862 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/20-21:08:18.345 2bd862 Delete type=2 #140
+2020/11/20-21:08:18.345 2bd862 Delete type=2 #146
+2020/11/20-21:08:18.345 2bd862 Manual compaction at level-1 from '\x00\x02\x01\x02\x01\x05\x00!\x00r\x00o\x00o\x00t' @ 61621 : 1 .. (end); will stop at (end)

@@ -1,0 +1,15 @@
+2020/11/22-15:10:03.486 98ab8 Reusing MANIFEST /home/dyear/.config/chromium/Default/IndexedDB/https_www.wolai.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/22-15:10:03.486 98ab8 Recovering log #35
+2020/11/22-15:10:03.487 98ab8 Reusing old log /home/dyear/.config/chromium/Default/IndexedDB/https_www.wolai.com_0.indexeddb.leveldb/000035.log 
+2020/11/22-15:17:10.855 cef15 Level-0 table #39: started
+2020/11/22-15:17:10.860 cef15 Level-0 table #39: 6673 bytes OK
+2020/11/22-15:17:10.866 cef15 Delete type=0 #35
+2020/11/22-15:17:10.866 cef15 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/22-15:17:10.866 cef15 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01"\x03\x00\x80\xb8\xb0\xec^wB\x00\x03\x00\x00\x00\x00\x00\x80S@' @ 2472 : 1
+2020/11/22-15:17:10.866 cef15 Compacting 1@1 + 1@2 files
+2020/11/22-15:17:10.870 cef15 Generated table #40@1: 345 keys, 12486 bytes
+2020/11/22-15:17:10.870 cef15 Compacted 1@1 + 1@2 files => 12486 bytes
+2020/11/22-15:17:10.875 cef15 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/22-15:17:10.875 cef15 Delete type=2 #39
+2020/11/22-15:17:10.875 cef15 Delete type=2 #30
+2020/11/22-15:17:10.876 cef15 Manual compaction at level-1 from '\x00\x01\x01"\x03\x00\x80\xb8\xb0\xec^wB\x00\x03\x00\x00\x00\x00\x00\x80S@' @ 2472 : 1 .. (end); will stop at (end)

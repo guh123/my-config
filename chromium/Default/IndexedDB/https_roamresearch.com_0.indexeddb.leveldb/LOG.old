@@ -1,0 +1,15 @@
+2020/11/20-21:48:36.544 2d37d7 Reusing MANIFEST /home/dyear/.config/chromium/Default/IndexedDB/https_roamresearch.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/20-21:48:36.544 2d37d7 Recovering log #11
+2020/11/20-21:48:36.544 2d37d7 Reusing old log /home/dyear/.config/chromium/Default/IndexedDB/https_roamresearch.com_0.indexeddb.leveldb/000011.log 
+2020/11/20-21:49:09.217 2d3fd2 Level-0 table #16: started
+2020/11/20-21:49:09.223 2d3fd2 Level-0 table #16: 5774 bytes OK
+2020/11/20-21:49:09.228 2d3fd2 Delete type=0 #11
+2020/11/20-21:49:09.228 2d3fd2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/20-21:49:09.228 2d3fd2 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01 \x03\x00\x80`\x9f^^wB\x00\x01=\x00i\x00m\x00a\x00g\x00e\x00s\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00r\x00o\x00a\x00m\x00r\x00e\x00s\x00e\x00a\x00r\x00c\x00h\x00.\x00c\x00o\x00m\x00/\x00a\x00s\x00s\x00e\x00t\x00s\x00/\x00i\x00m\x00a\x00g\x00e\x00s\x00/\x00h\x00u\x00a\x00n\x00w\x00i\x00n\x00-\x00m\x00i\x00n\x00.\x00j\x00p\x00g' @ 1053 : 1
+2020/11/20-21:49:09.228 2d3fd2 Compacting 1@1 + 1@2 files
+2020/11/20-21:49:09.233 2d3fd2 Generated table #17@1: 93 keys, 5090 bytes
+2020/11/20-21:49:09.233 2d3fd2 Compacted 1@1 + 1@2 files => 5090 bytes
+2020/11/20-21:49:09.237 2d3fd2 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/20-21:49:09.237 2d3fd2 Delete type=2 #16
+2020/11/20-21:49:09.237 2d3fd2 Delete type=2 #13
+2020/11/20-21:49:09.238 2d3fd2 Manual compaction at level-1 from '\x00\x02\x01 \x03\x00\x80`\x9f^^wB\x00\x01=\x00i\x00m\x00a\x00g\x00e\x00s\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00r\x00o\x00a\x00m\x00r\x00e\x00s\x00e\x00a\x00r\x00c\x00h\x00.\x00c\x00o\x00m\x00/\x00a\x00s\x00s\x00e\x00t\x00s\x00/\x00i\x00m\x00a\x00g\x00e\x00s\x00/\x00h\x00u\x00a\x00n\x00w\x00i\x00n\x00-\x00m\x00i\x00n\x00.\x00j\x00p\x00g' @ 1053 : 1 .. (end); will stop at (end)

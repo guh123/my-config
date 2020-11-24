@@ -1,0 +1,1384 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>	
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#fff">
+	<title>APK Downloader [Max Speed] Download Directly</title>
+		<meta name="description" content="We are support to download APK are original, safe and not modified. Compatible with your Android devices. No registration, no login required for download apk" />
+				<meta name="keywords" content="APK Downloader, download apk, download apk online, apk download" />
+		<link rel="canonical" href="https://apk.support/apk-downloader" />
+	<link rel="shortcut icon" href="images/favicon@2x.png">
+	<link rel="icon" type="image/png" href="images/icon-128x128.png" sizes="128x128" />
+
+<style>
+* {
+	margin: 0;
+	padding: 0
+}
+
+html,
+body {
+	overflow-x: hidden
+}
+
+a {
+	color: #055fa7
+}
+
+ul,
+li,
+ol {
+	list-style: none
+}
+
+html {
+	font-size: 63.5%
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	font-size: 1.4rem;
+	background: #f5f5f5;
+	color: #202124;
+	font-size-adjust: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-webkit-font-smoothing: antialiased;
+	text-size-adjust: 100%
+}
+
+img {
+	vertical-align: middle;
+	border: 0
+}
+
+input {
+	outline: none;
+	border-radius: 0;
+	box-shadow: 0 0;
+	border: none
+}
+
+.cl {
+	clear: both;
+	font-size: 0px;
+	height: 0;
+	line-height: 0;
+	overflow: hidden
+}
+
+.inav {
+	position: absolute
+}
+
+.so {
+	height: 34px;
+	line-height: 35px;
+	margin-top: 4px;
+	width: 100%;
+	display: -webkit-box;
+	display: -moz-box;
+	display: box;
+	-webkit-box-orient: horizontal;
+	-moz-box-orient: horizontal;
+	box-orient: horizontal
+}
+
+.so .bb {
+	width: 40px
+}
+
+.so .bb a {
+	display: block;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.so .ll {
+	background: #fff;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	border: 1px solid #99999959;
+	padding-left: 5px;
+	margin-left: 5px
+}
+
+.so .rr {
+	width: 35px;
+	cursor: pointer;
+	background-size: 35px 35px !important;
+	border-radius: 4px
+}
+
+.so .rr input {
+	width: 50px;
+	background: rgba(255, 0, 0, 0)
+}
+
+.so .query {
+	display: block;
+	box-sizing: border-box;
+	padding-left: 5px;
+	background: rgba(255, 0, 0, 0);
+	height: 35px;
+	width: 100%;
+	font-size: 14px
+}
+
+.menu-group {
+	padding-top: 10px
+}
+
+.menu-border {
+	border-bottom: solid 1px #E0E0E0;
+	padding-bottom: 10px
+}
+
+.header_top {
+	background: #fff;
+	width: 100%;
+	height: 42px;
+	-moz-transition: top .3s ease-in-out;
+	-ms-transition: top .3s ease-in-out;
+	-o-transition: top .3s ease-in-out;
+	transition: top .3s ease-in-out;
+	z-index: 999;
+	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12), inset 0 -1px 0 0 #dadce0;
+	position: absolute
+}
+
+.nav_a {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	z-index: 999
+}
+
+.inav {
+	position: absolute
+}
+
+.nav_a .c {
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	box-flex: 1
+}
+
+.nav_a .c a {
+	display: block;
+	max-width: 120px;
+	margin: 0 auto;
+	text-align: center
+}
+
+.nav_a .c a.logo img {
+	margin-top: -4px;
+	height: 35px
+}
+
+input {
+	outline: none;
+	border-radius: 0;
+	box-shadow: 0 0;
+	border: none
+}
+
+.m-drawer {
+	background: #fafafa none repeat scroll 0 0;
+	box-sizing: border-box;
+	color: #424242;
+	display: flex;
+	flex-flow: column nowrap;
+	height: 100%;
+	left: 0;
+	max-height: 100%;
+	overflow-x: visible;
+	overflow-y: auto;
+	position: absolute;
+	top: 42px;
+	transform: translateX(-250px);
+	transform-style: preserve-3d;
+	transition-duration: .2s;
+	transition-property: transform, -webkit-transform;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	width: 240px;
+	will-change: transform;
+	z-index: 998;
+	border: medium none;
+	display: none
+}
+
+.m-drawer.is-visible {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	position: fixed;
+	display: block
+}
+
+.m-obfuscator {
+	background-color: transparent;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 42px;
+	transition-duration: .2s;
+	transition-property: background-color;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	visibility: hidden;
+	width: 100%;
+	z-index: 997;
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 0;
+	pointer-events: none;
+	transition-property: opacity;
+	visibility: visible
+}
+
+.m-obfuscator.is-visible {
+	background-color: rgba(0, 0, 0, 0.5);
+	visibility: visible;
+	opacity: .8;
+	pointer-events: auto;
+	position: fixed;
+	background-color: #000;
+	right: 0;
+	left: 0
+}
+
+.so .rr {
+	background: url('images/search-min.png') no-repeat center center
+}
+
+.tg {
+	box-sizing: border-box;
+	padding-left: 1px;
+	padding-right: 1px;
+	font-size: 14px;
+	position: absolute;
+	right: 77px;
+	top: 4px
+}
+
+.tg select {
+	height: 30px;
+	border: 0;
+	background-color: #f5f5f5
+}
+
+.site-footer>* {
+	margin: 0 auto;
+	box-sizing: border-box
+}
+
+.site-footer .currency-social {
+	padding-top: 15px;
+	text-align: center;
+	padding-bottom: 10px
+}
+
+.site-footer .legal {
+	font-size: 13px;
+	line-height: 120%;
+	padding-bottom: 30px;
+	padding-left: 10px
+}
+
+.f-list-bottom a {
+	display: inline-block;
+	color: #202124;
+	padding: 8px 0;
+	margin: 0 0 0 40px;
+	text-decoration: none
+}
+
+.footer-sites-logo {
+	max-width: 120px;
+	display: inline-block;
+	height: auto;
+	vertical-align: middle
+}
+
+.l-footer__social {
+	list-style: none;
+	padding: 0
+}
+
+.l-footer__social li {
+	display: inline-block;
+	margin: 0 10px
+}
+
+.l-footer__social a {
+	color: #6f7476;
+	fill: #757575;
+	-webkit-transition: color .2s ease-in-out;
+	transition: color .2s ease-in-out
+}
+
+footer {
+	border-top: 1px solid #ddd;
+	margin-bottom: 10px
+}
+
+footer .bullet {
+	padding: 0 5px
+}
+
+footer .legal {
+	background-color: #fff;
+	color: #202124;
+	font-size: 12px;
+	padding: 15px 0
+}
+
+#Footer-component {
+	clear: both
+}
+
+.searchbu {
+	background: url(images/search-min.png) no-repeat center center
+}
+
+.searchbu {
+	width: 35px;
+	margin: 0 5px;
+	padding-left: 5px;
+	cursor: pointer;
+	background-size: 33px 33px !important;
+	border-radius: 4px
+}
+
+.other-list {
+	border-top: 1px solid #ddd
+}
+
+.f-list-bottom li {
+	display: inline-block
+}
+
+@media screen and (max-width: 600px) {
+	.f-list-bottom li,
+	.other-list-bottom li {
+		display: block;
+		padding: 5px
+	}
+	.f-list-bottom a,
+	.other-list-bottom a {
+		margin: 0
+	}
+}
+
+@media screen and (max-width: 840px) {
+	.f-list-bottom a {
+		margin: 0 40px 0 0
+	}
+}
+
+.apksupport {
+	padding: 10px;
+	font-size: 13px;
+	text-align: center;
+	color: #666
+}
+
+.menu-body {
+	padding-top: 15px
+}
+
+.btctm-top .hmbgr-wrap {
+	position: absolute!important;
+	top: 0!important;
+	right: 16px!important;
+	display: inline-block!important;
+	vertical-align: top!important;
+	cursor: pointer!important;
+	width: 4.4em!important
+}
+
+.btctm-top .hmbgr-wrap:before {
+	content: '';
+	color: #333;
+	padding-right: .25em;
+	display: inline-block;
+	transition: color .2s!important
+}
+
+.btctm-top .hmbgr-wrap .hmbgr,
+.btctm-top .hmbgr-wrap .hmbgr:before,
+.btctm-top .hmbgr-wrap .hmbgr:after {
+	display: inline-block!important;
+	width: 20px!important;
+	height: 2px!important;
+	background-color: #333!important;
+	border-radius: 1.5px!important;
+	line-height: 0!important;
+	position: absolute!important;
+	cursor: pointer!important;
+	transition: transform 0.5s, background-color .2s!important
+}
+
+.btctm-top .hmbgr-wrap .hmbgr {
+	vertical-align: middle!important;
+	top: 16px!important;
+	margin-top: -1px!important
+}
+
+.btctm-top .hmbgr-wrap .hmbgr:before,
+.btctm-top .hmbgr-wrap .hmbgr:after {
+	content: ''
+}
+
+.btctm-top .hmbgr-wrap .hmbgr:before {
+	top: -6px
+}
+
+.btctm-top .hmbgr-wrap .hmbgr:after {
+	top: 6px
+}
+
+.btctm-top .hmbgr-wrap:hover:before {
+	color: #333!important
+}
+
+.btctm-top .hmbgr-wrap:hover .hmbgr,
+.btctm-top .hmbgr-wrap:hover .hmbgr:before,
+.btctm-top .hmbgr-wrap:hover .hmbgr:after {
+	background-color: #333!important
+}
+
+.action-bar-menu-button {
+	cursor: pointer;
+	display: inline-block;
+	height: 46px;
+	position: absolute;
+	top: 0;
+	width: 46px
+}
+
+.action-bar-menu-button {
+	left: 0
+}
+
+.action-bar-menu-button {
+	cursor: pointer;
+	display: inline-block;
+	height: 46px;
+	position: absolute;
+	top: -2px;
+	width: 46px;
+	left: 2px
+}
+
+.action-bar-menu-button {
+	color: #fff;
+	margin-top: 5px;
+	margin-left: 8px
+}
+
+.btctm-top.open .hmbgr-wrap .hmbgr {
+	background-color: #fff!important
+}
+
+.btctm-top.open .hmbgr-wrap .hmbgr:before,
+.btctm-top.open .hmbgr-wrap .hmbgr:after {
+	background-color: #333!important
+}
+
+.btctm-top.open .hmbgr-wrap .hmbgr:before {
+	transform: translateY(6px) rotate(135deg)!important
+}
+
+.btctm-top.open .hmbgr-wrap .hmbgr:after {
+	transform: translateY(-6px) rotate(-135deg)!important
+}
+
+.btctm-top {
+	width: 45px
+}
+
+.menu-group li {
+	padding: 15px 0 5px 20px;
+	position: relative;
+	top: -3px;
+	cursor: pointer
+}
+
+.menu-group li a,
+.menu-group li a:visited {
+	color: rgba(0, 0, 0, 0.87);
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	display: block
+}
+
+@media screen and (max-width: 840px) {
+	.footer-locale-switcher {
+		margin: 0 40px 0 0
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.footer-locale-switcher {
+		margin: 0
+	}
+}
+
+.grecaptcha-badge {
+	display: none !important
+}
+
+.main {
+	padding-top: 42px;
+	width: 100%
+}
+
+.share-wrap {
+	height: 32px;
+	text-align: center;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin-bottom: 18px
+}
+
+.obblive,
+.apklive,
+.genrate_b,
+.ziplive {
+	border-radius: 3px;
+	display: inline-block;
+	color: #FFF;
+	font-size: 13px;
+	padding: 5px;
+	text-decoration: none;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .26);
+	line-height: 20px
+}
+
+.apklive {
+	background-color: #03897c;
+	border: 1px solid #03897c
+}
+
+.obblive {
+	background-color: #9E9E9E;
+	border: 1px solid #9E9E9E
+}
+
+.ziplive {
+	background-color: #3b5998;
+	border: 1px solid #3b5998
+}
+
+a_de {
+	font-size: 16px;
+	font-weight: bold
+}
+
+.downloader_area {
+	padding: 10px;
+	clear: both;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: 1px #9E9E9E solid
+}
+
+.dd_info {
+	text-align: left
+}
+
+.linkapkshow {
+	clear: both;
+	padding-top: 20px;
+	text-align: left
+}
+
+.linkapkshow li {
+	display: inline-block;
+	padding-bottom: 10px;
+	margin-right: 10px
+}
+
+.dd_info img {
+	float: left;
+	border-radius: 50%;
+	margin-right: 10px
+}
+
+.dd_info li {
+	line-height: 22px
+}
+
+.static_s p {
+	font-size: 16px;
+	line-height: 1.7em;
+	overscroll-behavior: none
+}
+
+.static_s_h3 {
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 1.3em;
+	margin-top: 1.5em;
+	margin-bottom: .3em;
+	padding: 0
+}
+
+.hr_s {
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible;
+	display: block;
+	unicode-bidi: isolate;
+	margin-block-start: 0.5em;
+	margin-block-end: 0.5em;
+	margin-inline-start: auto;
+	margin-inline-end: auto;
+	overflow: hidden;
+	border-style: inset;
+	border-width: 1px
+}
+
+.apksupport_w {
+	padding: 10px 20px;
+	margin-top: 15px;
+	margin-bottom: 25px
+}
+
+.download-box {
+	overflow: hidden
+}
+
+.download-box .down-wrap {
+	padding: 20px 20px 0 20px;
+	overflow: hidden
+}
+
+.download-box .down-wrap h1 {
+	overflow: visible;
+	margin: 0 auto 11px;
+	letter-spacing: -0.5px;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 40px;
+	text-align: center
+}
+
+.down-wrap p {
+	text-align: center;
+	line-height: 22px;
+	overflow: hidden;
+	margin: 0px auto 10px;
+	max-width: 668px
+}
+
+.download-box .down-form {
+	margin-top: 10px;
+	background: #fff;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #437EA6;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	width: 100%;
+	display: -webkit-box;
+	display: -moz-box;
+	display: box;
+	-webkit-box-orient: horizontal;
+	-moz-box-orient: horizontal;
+	box-orient: horizontal
+}
+
+.download-box .down-form .text-box1 {
+	display: block;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	box-flex: 1
+}
+
+#region-package {
+	display: block;
+	box-sizing: border-box;
+	padding-left: 5px;
+	background: rgba(255, 0, 0, 0);
+	height: 40px;
+	width: 100%;
+	font-size: 14px
+}
+
+@-webkit-keyframes indeterminate {
+	0% {
+		left: -35%;
+		right: 100%
+	}
+	60% {
+		left: 100%;
+		right: -90%
+	}
+	100% {
+		left: 100%;
+		right: -90%
+	}
+}
+
+@keyframes indeterminate {
+	0% {
+		left: -35%;
+		right: 100%
+	}
+	60% {
+		left: 100%;
+		right: -90%
+	}
+	100% {
+		left: 100%;
+		right: -90%
+	}
+}
+
+web-progress-bar .web-progress-bar-wrapper {
+	position: relative;
+	height: 4px;
+	display: block;
+	width: 100%;
+	background-color: rgba(255, 152, 0, 0.28);
+	border-radius: 2px;
+	overflow: hidden;
+	contain: strict
+}
+
+web-progress-bar .web-progress-bar-indeterminate {
+	background-color: #FF9800
+}
+
+web-progress-bar .web-progress-bar-indeterminate::before {
+	content: "";
+	position: absolute;
+	background-color: inherit;
+	top: 0;
+	left: 3px;
+	bottom: 0;
+	will-change: left, right;
+	-webkit-animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
+	animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite
+}
+
+web-progress-bar .web-progress-bar-indeterminate::after {
+	content: "";
+	position: absolute;
+	background-color: inherit;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	will-change: left, right;
+	-webkit-animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+	animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+	-webkit-animation-delay: 1.15s;
+	animation-delay: 1.15s
+}
+
+.video-container {
+	max-width: 460px;
+	margin: 0 auto
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+	width: 100%
+}
+
+.apk_op {
+	padding: 10px;
+	border: 1px #00875f solid;
+	margin: 5px 5px 5px 5px
+}
+
+.apk_op li {
+	padding-right: 5px;
+	margin-bottom: 10px;
+	display: inline-block
+}
+
+.w-button {
+	align-items: center;
+	background: transparent;
+	border: 0;
+	border-radius: 3px;
+	box-shadow: none;
+	background-color: #00875f;
+	color: #fff;
+	cursor: pointer;
+	display: inline-flex;
+	font-size: 1.1em;
+	font-weight: 500;
+	height: 35px;
+	justify-content: center;
+	letter-spacing: 1px;
+	outline: 0;
+	overflow: hidden;
+	padding: 0px 16px;
+	position: relative;
+	text-decoration: none;
+	transition: background-color .2s, box-shadow .2s;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility
+}
+
+.w-button:hover {
+	box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);
+	outline: none;
+	text-decoration: none
+}
+
+.w-button-disable {
+	cursor: not-allowed;
+	pointer-events: none;
+	color: #9E9E9E;
+	background-color: #e6e6e6
+}
+
+.shadetabs {
+	padding: 3px 0;
+	margin-left: 0;
+	margin-top: 1px;
+	margin-bottom: 0;
+	list-style-type: none;
+	text-align: left
+}
+
+.shadetabs li {
+	display: inline;
+	margin: 0
+}
+
+.shadetabs li a.selected {
+	background-color: #00875f;
+	color: #fff
+}
+
+.shadetabs li a {
+	cursor: pointer;
+	text-decoration: none;
+	position: relative;
+	z-index: 1;
+	padding: 3px 7px;
+	margin-right: 3px;
+	border: 1px solid #9e9e9e36;
+	position: relative;
+	top: 4px;
+	color: #9E9E9E
+}
+
+.apk_op input {
+	border: 1px solid #ccc;
+	margin-top: 5px;
+	padding: 3px 9px
+}
+
+.apk_op select {
+	margin-top: 5px;
+	padding: 3px 9px
+}
+
+.android_se select {
+	margin-top: 5px;
+	padding: 3px 9px
+}
+
+.ad-box {
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	padding-bottom: 12px;
+	padding-top: 12px;
+	background-color: #f5f5f5
+}
+
+.advertisement {
+	position: relative;
+	padding: 2px 5px 0;
+	color: #696969;
+	font-weight: 300;
+	font-size: 12px;
+	top: 0;
+	right: 0;
+	text-align: center;
+	z-index: 1
+}
+
+.sugder a {
+	padding: 5px;
+	color: #055fa7
+}
+
+.browser {
+	position: relative;
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	border: 1px solid #9e9e9e5e;
+	background-color: #fff;
+	font-size: 16px;
+	margin-top: 15px
+}
+
+.dvContents {
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	overflow: auto
+}
+
+.ft_folder {
+	padding: 5px 0px 5px 45px;
+	margin: 0px;
+	line-height: 20px;
+	background-position: 3px 50%;
+	background-repeat: no-repeat;
+	background-image: url(images/folder.svg);
+	height: 20px;
+	color: #333
+}
+
+.dvContents li {
+	display: block;
+	border-top: 1px dashed #33333338;
+	vertical-align: middle;
+	white-space: nowrap;
+	cursor: pointer
+}
+
+.dvContents li:hover {
+	background-color: #33333312
+}
+
+.dvContents li a {
+	margin-left: 10px;
+	overflow: hidden;
+	display: block;
+	padding: 10px;
+	color: #00875f
+}
+
+.dersize {
+	float: right;
+	color: #666
+}
+
+.site-footer .collapsable-lists a {
+	color: #555;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-break: break-all
+}
+
+.footer-columns li {
+	font-size: 13px;
+	background-color: #e6e6e66e;
+	padding: 5px;
+	border-radius: 5px;
+	margin: 5px;
+	display: inline-block;
+	text-align: center;
+	border: 1px solid #9e9e9e36
+}
+
+#zip_area a,
+#zip_area a:visited {
+	font-weight: bold;
+	color: #222
+}
+
+.zipping {
+	font-size: 13px;
+	padding: 5px;
+	color: #cb1508
+}
+
+.zipping:after {
+	content: ' .';
+	animation: dots 1s steps(5, end) infinite
+}
+
+@keyframes dots {
+	0%,
+	20% {
+		color: rgba(0, 0, 0, 0);
+		text-shadow: .25em 0 0 rgba(0, 0, 0, 0), .5em 0 0 rgba(0, 0, 0, 0)
+	}
+	40% {
+		color: #cb1508;
+		text-shadow: .25em 0 0 rgba(0, 0, 0, 0), .5em 0 0 rgba(0, 0, 0, 0)
+	}
+	60% {
+		text-shadow: .25em 0 0 #cb1508, .5em 0 0 rgba(0, 0, 0, 0)
+	}
+	80%,
+	100% {
+		text-shadow: .25em 0 0 #cb1508, .5em 0 0 #cb1508
+	}
+}
+
+.zip_b {
+	float: right;
+	padding-top: 5px
+}
+
+.zip_b li {
+	display: inline
+}
+
+.zip_b select {
+	height: 32px;
+	padding: 3px 9px
+}
+
+.zip_b li:first-of-type {
+	padding-right: 10px
+}
+
+.helpapk {
+	clear: both;
+	padding-top: 15px
+}
+
+.helpapk ol {
+	list-style-type: decimal;
+	list-style: decimal;
+	padding-left: 20px;
+	padding-top: 10px
+}
+
+.helpapk li {
+	list-style-type: decimal;
+	list-style: decimal;
+	margin-bottom: 8px
+}
+
+.autocomplete-suggestions {
+	text-align: left;
+	cursor: default;
+	border: 1px solid #aaa;
+	border-top: #d6d6d6;
+	background: #fff;
+	position: absolute;
+	display: none;
+	z-index: 9999;
+	max-height: 254px;
+	overflow: hidden;
+	overflow-y: auto
+}
+
+.autocomplete-suggestion {
+	position: relative;
+	padding: .75rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	cursor: pointer
+}
+
+.autocomplete-suggestion b {
+	font-weight: bold
+}
+
+.autocomplete-suggestion.selected {
+	background: #f0f0f0
+}
+</style>
+</head>
+<body>
+
+	<div class="header_top" id="header_menu">
+		<div class="nav_a inav">
+			<form class="formsearch" action="https://apk.support/search" method="get">
+				<div id="inav" style="display: none">
+					<div class="so">
+						<div class="btctm-top" id="menu_btn">
+							<span class="action-bar-menu-button hmbgr-wrap">
+							 <div class="hmbgr"></div>
+							</span>
+						</div>
+						<div class="c">
+						    <a href="https://apk.support/" class="logo"><img src="https://lh3.androidcontents.com/apksupport.svg" alt="APK Support"></a>
+						</div>
+						<div class="searchbu" id="showsearch"></div>
+					</div>
+				</div>
+				<div id="iso">
+					<div class="so">
+						<div class="ll">
+						<input id="searchform" autofocus="autofocus" role="combobox" aria-autocomplete="list" class="query autocomplete" type="text" name="q" placeholder="Search..." value="" required/>
+						</div>
+						<div class="tg">
+						<select name="t">
+						<option value="support" selected>APK.Support</option>
+						<option value="google">Google</option></select>
+						</div>
+						<div class="rr">
+						<input type="submit" value="" />
+						</div>
+						<div class="bb"><a id="hiddensearch" title="Search Close"><img src="https://lh3.androidcontents.com/images/close.svg" alt="Search Close"></a></div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>	
+	<div class="menu m-drawer" id="menu-body">
+		<div class="menu-body">				
+			<div class="menu-info">
+				<ul class="menu-group menu-border">
+				<li><a href="https://apk.support/">Home</a></li>
+				<li><a href="https://apk.support/game/">Games</a></li>
+				<li><a href="https://apk.support/app/">Apps</a></li>
+				<li><a href="https://apk.support/category/">Category</a></li>
+				<li><a href="https://apk.support/apk-downloader">APK Downloader</a></li>				
+				</ul>
+				<ul class="menu-group">
+				<li><a href="https://apk.support/discover/">Discover</a></li>
+				<li><a href="https://apk.support/apps-on-sale/">Discount Apps</a></li>
+				<li><a href="https://apk.support/games-on-sale/">Discount Games</a></li>
+				<li><a href="https://apk.support/app-collection/">Apps Collection</a></li>
+				<li><a href="https://apk.support/game-collection/">Games Collection</a>					
+				</ul>					
+			</div>
+		</div>
+		</nav>
+	</div>
+	<div class="m-obfuscator" id="m_obfuscator"></div>
+	<div class="main pageapp" id="pageapp">
+<div class="download-box">
+	<div class="down-wrap">
+		<div class="static_s">
+			<h1 class="static_s_h1">APK Downloader</h1>
+			<p>We are committed and support to downloading apk are original, safe and not modified. Directly from Android App Store</p>
+<form id="apkdownloader" action="" method="post" autocomplete="off">
+<style>
+
+</style>
+<div class="sugder">
+<a href="https://apk.support/c/vpn.html">vpn free</a>
+<a href="https://apk.support/search?q=browser&t=support">best browser</a>
+<a href="https://apk.support/download-app/com.facebook.lite">facebook Lite</a>
+</div>
+<div class="down-form"> <span class="text-box1">
+
+<input autofocus="autofocus" title="Enter App Name, Package Name, Package ID" id="region-package" name="package" type="text" placeholder="Package Name or Google Play URL" value="" required/> 
+
+</span>
+</div>	
+
+<div style="margin-left: 5px; padding-top: 20px;">
+<ul id="countrytabs" class="shadetabs">
+<li><a id="b1" class="selected">Config</a></li>
+<li><a id="b2">Your Device ID</a></li>
+</ul>
+</div>
+<div class="apk_op" id="yid" style="display:none">
+<ul>
+<ul>
+<li>Download the apk according to your device</li>
+</ul>
+
+<li><div>Android</div>
+<div class="android_se">
+<select name="av_u" id="av_u" aria-label="Select Android version">
+<option value="0" selected>Default</option>
+<option value="10">Android 10</option>
+<option value="9.0">Android 9.0</option>
+<option value="8.1">Android 8.1</option>
+<option value="8.0">Android 8.0</option>
+<option value="7.1">Android 7.1</option>
+<option value="7.0">Android 7.0</option>
+<option value="6.0">Android 6.0</option>
+<option value="5.1">Android 5.1</option>						
+<option value="5.0">Android 5.0</option>
+<option value="4.4W">Android 4.4W</option>		
+<option value="4.4">Android 4.4</option>			
+<option value="4.3">Android 4.3</option>
+<option value="4.2">Android 4.2</option>
+<option value="4.1">Android 4.1</option>
+<option value="4.0.3">Android 4.0.3</option>
+<option value="4.0">Android 4.0</option>
+<option value="3.2">Android 3.2</option>
+<option value="3.1">Android 3.1</option>
+<option value="3.0">Android 3.0</option>
+<option value="2.3.3">Android 2.3.3</option>
+<option value="2.3">Android 2.3</option>
+						</select>
+</div>
+</li>
+<li>
+<div>Device ID</div>
+<input type="text" id="device_id" name="device_id" placeholder="123456...">
+</li>
+</ul>
+<ul>
+<li><span><a target="_blank" href="https://apk.support/download-app/com.redphx.deviceid/1475121600_vs-1.1.3">get your GSF ID (Android ID) →</a></span></li>
+</ul>
+</div>
+<div class="apk_op" id="opd">
+<ul>
+<li><div>Android</div>
+<div>
+<select name="av" id="av" aria-label="Select Android version">
+<option value="0" selected>Default</option>
+<option value="10">Android 10</option>
+<option value="9.0">Android 9.0</option>
+<option value="8.1">Android 8.1</option>
+<option value="8.0">Android 8.0</option>
+<option value="7.1">Android 7.1</option>
+<option value="7.0">Android 7.0</option>
+<option value="6.0">Android 6.0</option>
+<option value="5.1">Android 5.1</option>						
+<option value="5.0">Android 5.0</option>
+<option value="4.4W">Android 4.4W</option>			
+<option value="4.4">Android 4.4</option>			
+<option value="4.3">Android 4.3</option>
+<option value="4.2">Android 4.2</option>
+<option value="4.1">Android 4.1</option>
+<option value="4.0.3">Android 4.0.3</option>
+<option value="4.0">Android 4.0</option>
+<option value="3.2">Android 3.2</option>
+<option value="3.1">Android 3.1</option>
+<option value="3.0">Android 3.0</option>
+<option value="2.3.3">Android 2.3.3</option>
+<option value="2.3">Android 2.3</option>		
+						
+						</select>
+</div>
+</li>
+<li><div>Device</div>
+<div>
+		<select name="tbi" id="tbi" aria-label="Select Device">
+	<option value="0" selected>Default</option>
+			<option value="samsung">Samsung phones</option>
+			<option value="huawei">Huawei phones</option> 
+			<option value="xiaomi">Xiaomi phones</option>	
+            <option value="oppo">Oppo phones</option>			
+			<option value="sony">Sony phones</option>	
+			<option value="motorola">Motorola phones</option>
+			<option value="lg">LG phones</option>
+			<option value="htc">HTC phones</option>	 
+			<option value="oneplus">OnePlus phones</option>
+			<option value="asus">Asus phones</option>	
+			<option value="google">Google phones</option>
+			<option value="nokia">Nokia phones</option>
+            <option value="other">Other phones</option>
+		<option value="tv">TV</option>
+		<option value="wear">Wear</option>	
+		<option value="tablet">Tablet</option>
+			 
+		</select>
+</div>
+</li>
+<li id="mdl" style="display:none">
+<div>Model</div>
+
+<div>
+		<select name="model" id="model" aria-label="Select Model">
+		<option value="" selected="selected">Default</option>
+		</select>
+</div>
+</li>
+</ul>
+	
+<div style="padding: 5px 0 0 0px;font-size: 12px;" id="status"></div>
+</div>
+	
+<div  style="text-align: center;padding: 5px 0px 20px 5px;">				
+<ul>
+	<li>
+	<input class="w-button" id="apksubmit" type="submit" value="Generate Download Link"/>
+	</li>
+
+</ul>
+</div>
+						 
+</form>
+				
+				<div class="downloader_area" id="ddea">
+					<div id="downloader_area">
+					</div>
+				
+				</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="apksupport_w">
+			<div class="cl"></div>
+
+				<div class="share-wrap">
+					
+    <div class="addthis_inline_share_toolbox_1d9v"></div>  
+        </div>
+
+
+</div><div id="Footer-component">
+<footer class="site-footer">
+<div class="legal">	
+<div class="f-list-bottom"> 
+<ul>
+<li><a href="https://apk.support/" title="APK Support"><img class="footer-sites-logo lazy_load" src="images/apksupport.svg" alt="APK Support" class="lazy_load"></a></li>
+<li><a href="https://chrome.google.com/webstore/detail/apk-downloader/fgljidimohbcmjdabiecfeikkmpbjegm" title="Chrome Extension" rel="nofollow">Chrome Extension</a></li>
+<li><a title="APK Downloader" href="https://apk.support/apk-downloader">APK Downloader</a></li>
+</ul>
+</div>
+	<div class="f-list-bottom other-list"> 
+		<ul>
+			<li><a href="https://apk.support/dmca.html" rel="nofollow" title="DMCA Disclaimer">DMCA</a></li>
+			<li> <a title="Terms Of Use" class="terms-of-service" href="https://apk.support/terms-of-use.html" rel="nofollow">Terms Of Use</a></li>
+			<li> <a title="Privacy Policy" class="privacy-policy" href="https://apk.support/privacy-policy.html" rel="nofollow">Privacy Policy</a></li>	
+			<li><a href="https://contact.apk.support/" rel="nofollow" title="Contact us">Feedback</a></li>
+			<li><a href="https://apk.support/about-us.html" rel="nofollow" title="About us">About us</a></li>
+
+		</ul>
+	</div>	
+		</div>
+		<div class="currency-social">
+			<ul class="l-footer__social">
+			<li> 
+			<a href="https://www.instagram.com/apkdownload/" rel="noopener" target="_blank" aria-label="Find Apk Support on Instagram" title="Instagram">
+			<img src="images/instagram.svg" class="lazy_load" alt="APK Support on Instagram">
+			</a>
+			</li>
+			<li>
+			<a href="https://www.youtube.com/c/apksupport" rel="noopener" target="_blank" aria-label="Find Apk Support on YouTube" title="Youtube">
+			<img src="images/youtube.svg" class="lazy_load" alt="APK Support on Youtube">
+			</a>
+			</li>
+			<li>
+			<a href="https://www.facebook.com/apk.support.download/" target="_blank" rel="noopener" aria-label="Find Apk Support on Facebook" title="Facebook">
+			<img src="images/facebook.svg" class="lazy_load" alt="APK Support on Facebook">
+			</a>
+			</li>
+			<li> 
+			<a href="https://www.twitter.com/googlecom" target="_blank" rel="noopener" aria-label="Find Apk Support on Twitter" title="Twitter">
+			<img src="images/twitter.svg" class="lazy_load" alt="APK Support on Twitter">
+			</a>
+			</li>
+			</ul>
+		</div>
+		<div class="apksupport">
+		<span>© APK SUPPORT Int. Lmt. 2018</span><span class="bullet">•</span><span>Made with <span class="special-symbol">♡</span> in Panama City, Panama</span><br>
+		<span>Google Play and the Google Play logo are trademarks of Google LLC.</span>
+		</div>
+	</footer>	
+</div>
+<script src="/data/model.js"></script>
+<script src="/js/as.js"></script>
+</body>
+</html>

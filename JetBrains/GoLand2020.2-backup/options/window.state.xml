@@ -1,0 +1,37 @@
+<application>
+  <component name="DimensionService">
+    <size key="GridCell.Tab.0.left.0.0.1366.768" width="421" height="181" />
+    <size key="GridCell.Tab.0.center.0.0.1366.768" width="421" height="181" />
+    <size key="GridCell.Tab.0.right.0.0.1366.768" width="421" height="181" />
+    <size key="GridCell.Tab.0.bottom.0.0.1366.768" width="421" height="181" />
+    <size key="GridCell.Tab.1.left.0.0.1366.768" width="652" height="227" />
+    <size key="GridCell.Tab.1.center.0.0.1366.768" width="652" height="227" />
+    <size key="GridCell.Tab.1.right.0.0.1366.768" width="652" height="227" />
+    <size key="GridCell.Tab.1.bottom.0.0.1366.768" width="652" height="227" />
+  </component>
+  <component name="WindowManager">
+    <frame x="41" y="24" width="1295" height="736" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+    </layout>
+  </component>
+  <component name="WindowStateApplicationService">
+    <state x="283" y="0" key="#Plugins" timestamp="1601997258293">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="283" y="0" key="#Plugins/0.0.1366.768" timestamp="1601997258293" />
+    <state x="475" y="161" key="FileChooserDialogImpl" timestamp="1602043883425">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="475" y="161" key="FileChooserDialogImpl/0.0.1366.768" timestamp="1602043883425" />
+    <state x="683" y="332" key="WELCOME_SCREEN" timestamp="1601997333104">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="683" y="332" key="WELCOME_SCREEN/0.0.1366.768" timestamp="1601997333104" />
+  </component>
+</application>

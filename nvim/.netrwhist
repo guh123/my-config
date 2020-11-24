@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/dyear/Tid/My/PublicWiki/plugins/souk21/commandpalette'
+let g:netrw_dirhist_6='/home/dyear/Tid/My/PublicWiki/tiddlers'
+let g:netrw_dirhist_5='/home/dyear/Study/w13scan/W13SCAN'
+let g:netrw_dirhist_4='/home/dyear/Study/w13scan'
+let g:netrw_dirhist_3='/home/dyear/Study/Dscan'
+let g:netrw_dirhist_2='/home/dyear/Study/w13scan/W13SCAN'
+let g:netrw_dirhist_1='/home/dyear/Study/w13scan/W13SCAN/api'
+let g:netrw_dirhist_0='/home/dyear/BugBounty/wordlist/SecLists'
+let g:netrw_dirhist_9='/home/dyear/BugBounty/wordlist'
+let g:netrw_dirhist_8='/home/dyear/BugBounty'

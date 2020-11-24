@@ -1,0 +1,65 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/go/src/awesomeProject1">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1iRrA1Fx4CCm5SMOcPnvJc68S1k">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-202.7319.61" />
+              <option name="buildTimestamp" value="1600241714916" />
+              <frame x="10" y="20" width="1346" height="728" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1601881097311" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/GolandProjects/LearnGoProject">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1iRK07Z6c4UoUqyoC49YnzCaKiz">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-202.7319.61" />
+              <option name="buildTimestamp" value="1600241714916" />
+              <frame x="10" y="20" width="1346" height="728" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1601882140564" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/go/src/awesomeProject">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1iRTQD8LjM04z1l74zRJPeHBkNf">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-202.7319.61" />
+              <option name="buildTimestamp" value="1600241711909" />
+              <frame x="238" y="24" width="898" height="728" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1602042742302" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/go/src/github.com/guh123/SortUrl">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1iXB6nW5E1WwMpcJIKBXenSIOGq">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-202.7319.61" />
+              <option name="buildTimestamp" value="1600241715254" />
+              <frame x="41" y="24" width="1295" height="736" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1602044180371" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/go/src" />
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/go/src/github.com/guh123/SortUrl" />
+        <option value="$USER_HOME$/go/src/awesomeProject" />
+        <option value="$USER_HOME$/GolandProjects/LearnGoProject" />
+        <option value="$USER_HOME$/go/src/awesomeProject1" />
+      </list>
+    </option>
+  </component>
+</application>

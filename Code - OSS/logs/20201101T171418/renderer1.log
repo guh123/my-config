@@ -1,0 +1,115 @@
+[2020-11-01 17:14:38.710] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/home/dyear/.deepinwine/Deepin-ThunderSpeed/drive_c/users/dyear/My Documents" points to "/home/dyear"
+[2020-11-01 17:14:45.478] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/home/dyear/.deepinwine/Deepin-ThunderSpeed/dosdevices/c:/users/dyear/My Documents" points to "/home/dyear"
+[2020-11-01 17:14:57.005] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/home/dyear/.deepinwine/Deepin-ThunderSpeed/dosdevices/z:/proc/1006/cwd" points to "/home/dyear"
+[2020-11-01 17:14:57.005] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/home/dyear/.deepinwine/Deepin-ThunderSpeed/dosdevices/z:/proc/1026/cwd" points to "/home/dyear"
+[2020-11-01 17:14:57.005] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/home/dyear/.deepinwine/Deepin-ThunderSpeed/dosdevices/z:/proc/1027/cwd" points to "/home/dyear"
+[2020-11-01 17:14:57.007] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/home/dyear/.deepinwine/Deepin-ThunderSpeed/dosdevices/z:/proc/1037/cwd" points to "/home/dyear"
+[2020-11-01 17:14:57.009] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/home/dyear/.deepinwine/Deepin-ThunderSpeed/dosdevices/z:/proc/1040074/cwd" points to "/home/dyear"
+[2020-11-01 17:14:57.010] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/home/dyear/.deepinwine/Deepin-ThunderSpeed/dosdevices/z:/proc/1040076/cwd" points to "/home/dyear"
+[2020-11-01 17:14:57.010] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/home/dyear/.deepinwine/Deepin-ThunderSpeed/dosdevices/z:/proc/1040077/cwd" points to "/home/dyear"
+[2020-11-01 17:14:57.016] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/home/dyear/.deepinwine/Deepin-ThunderSpeed/dosdevices/z:/proc/1040116/cwd" points to "/home/dyear"
+[2020-11-01 17:14:57.017] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/home/dyear/.deepinwine/Deepin-ThunderSpeed/dosdevices/z:/proc/1040128/cwd" points to "/home/dyear"
+[2020-11-01 17:14:57.018] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/home/dyear/.deepinwine/Deepin-ThunderSpeed/dosdevices/z:/proc/1040103/cwd" points to "/home/dyear"
+[2020-11-01 17:14:57.018] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/home/dyear/.deepinwine/Deepin-ThunderSpeed/dosdevices/z:/proc/1040223/cwd" points to "/home/dyear"
+[2020-11-01 17:14:57.019] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/home/dyear/.deepinwine/Deepin-ThunderSpeed/dosdevices/z:/proc/1040242/cwd" points to "/home/dyear"
+[2020-11-01 17:14:57.020] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/home/dyear/.deepinwine/Deepin-ThunderSpeed/dosdevices/z:/proc/1040335/cwd" points to "/home/dyear"
+[2020-11-01 17:14:57.021] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/home/dyear/.deepinwine/Deepin-ThunderSpeed/dosdevices/z:/proc/1040343/cwd" points to "/home/dyear"
+[2020-11-01 17:14:57.022] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/home/dyear/.deepinwine/Deepin-ThunderSpeed/dosdevices/z:/proc/1046/cwd" points to "/home/dyear"
+[2020-11-01 17:14:57.049] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/home/dyear/.deepinwine/Deepin-ThunderSpeed/dosdevices/z:/proc/1122/cwd" points to "/home/dyear"
+[2020-11-01 17:14:57.051] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/home/dyear/.deepinwine/Deepin-ThunderSpeed/dosdevices/z:/proc/1128/cwd" points to "/home/dyear"
+[2020-11-01 17:14:57.052] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/home/dyear/.deepinwine/Deepin-ThunderSpeed/dosdevices/z:/proc/1136/cwd" points to "/home/dyear"
+[2020-11-01 17:14:57.053] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/home/dyear/.deepinwine/Deepin-ThunderSpeed/dosdevices/z:/proc/1145/cwd" points to "/home/dyear"
+[2020-11-01 17:14:57.068] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/home/dyear/.deepinwine/Deepin-ThunderSpeed/dosdevices/z:/proc/1452/cwd" points to "/home/dyear"
+[2020-11-01 17:14:57.068] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/home/dyear/.deepinwine/Deepin-ThunderSpeed/dosdevices/z:/proc/1625/cwd" points to "/home/dyear"
+[2020-11-01 17:14:57.068] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/home/dyear/.deepinwine/Deepin-ThunderSpeed/dosdevices/z:/proc/1637/cwd" points to "/home/dyear"
+[2020-11-01 17:14:57.094] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/home/dyear/.deepinwine/Deepin-ThunderSpeed/dosdevices/z:/proc/57644/cwd" points to "/home/dyear"
+[2020-11-01 17:15:26.634] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/home/dyear/.deepinwine/Deepin-ThunderSpeed/dosdevices/z:/proc/self/cwd" points to "/home/dyear"
+[2020-11-01 17:15:38.964] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/home/dyear/.deepinwine/Deepin-ThunderSpeed/dosdevices/z:/proc/thread-self/cwd" points to "/home/dyear"
+[2020-11-01 17:16:22.200] [renderer1] [error] Error: [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2020-11-01 17:16:22.211] [renderer1] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2020-11-01 18:44:16.704] [renderer1] [error] EACCES: permission denied, open '/usr/lib/code/extensions/markdown-basics/package.json': Error: EACCES: permission denied, open '/usr/lib/code/extensions/markdown-basics/package.json'
+[2020-11-01 18:44:16.704] [renderer1] [error] EACCES: permission denied, open '/usr/lib/code/extensions/markdown-language-features/package.json': Error: EACCES: permission denied, open '/usr/lib/code/extensions/markdown-language-features/package.json'
+[2020-11-01 18:47:43.542] [renderer1] [error] Cannot read property 'range' of null: TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:47:44.683] [renderer1] [error] Cannot read property 'range' of null: TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:47:46.644] [renderer1] [error] Cannot read property 'range' of null: TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:48:48.993] [renderer1] [error] Cannot read property 'range' of null: TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:48:51.023] [renderer1] [error] Cannot read property 'range' of null: TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:48:52.081] [renderer1] [error] Cannot read property 'range' of null: TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:48:54.004] [renderer1] [error] Cannot read property 'range' of null: TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:48:56.048] [renderer1] [error] Cannot read property 'range' of null: TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:48:58.554] [renderer1] [error] Cannot read property 'range' of null: TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:03.353] [renderer1] [error] Cannot read property 'range' of null: TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:04.655] [renderer1] [error] Cannot read property 'range' of null: TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:06.608] [renderer1] [error] Cannot read property 'range' of null: TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:07.904] [renderer1] [error] Cannot read property 'range' of null: TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:10.300] [renderer1] [error] Cannot read property 'range' of null: TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:11.467] [renderer1] [error] Cannot read property 'range' of null: TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:12.944] [renderer1] [error] Cannot read property 'range' of null: TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:14.517] [renderer1] [error] Cannot read property 'range' of null: TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:17.569] [renderer1] [error] Cannot read property 'range' of null: TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:18.576] [renderer1] [error] Cannot read property 'range' of null: TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:19.694] [renderer1] [error] Cannot read property 'range' of null: TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-11-01 18:49:20.879] [renderer1] [error] Cannot read property 'range' of null: TypeError: Cannot read property 'range' of null
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:932
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)

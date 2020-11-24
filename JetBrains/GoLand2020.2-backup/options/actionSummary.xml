@@ -1,0 +1,210 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <data>
+      <entry key="$Cut">
+        <ActionSummary times="1" last="1601869013002" />
+      </entry>
+      <entry key="$SelectAll">
+        <ActionSummary times="2" last="1601996197326" />
+      </entry>
+      <entry key="$Undo">
+        <ActionSummary times="9" last="1601882155030" />
+      </entry>
+      <entry key="CloseProject">
+        <ActionSummary times="10" last="1602044294160" />
+      </entry>
+      <entry key="CodeCompletion">
+        <ActionSummary times="10" last="1601885451630" />
+      </entry>
+      <entry key="CommentByBlockComment">
+        <ActionSummary times="3" last="1601880335587" />
+      </entry>
+      <entry key="CommentByLineComment">
+        <ActionSummary times="10" last="1601880337675" />
+      </entry>
+      <entry key="DebugClass">
+        <ActionSummary times="1" last="1601880730496" />
+      </entry>
+      <entry key="EditorBackSpace">
+        <ActionSummary times="157" last="1602044138267" />
+      </entry>
+      <entry key="EditorChooseLookupItem">
+        <ActionSummary times="1" last="1601882191847" />
+      </entry>
+      <entry key="EditorChooseLookupItemReplace">
+        <ActionSummary times="1" last="1602044122656" />
+      </entry>
+      <entry key="EditorCompleteStatement">
+        <ActionSummary times="1" last="1601880476555" />
+      </entry>
+      <entry key="EditorDelete">
+        <ActionSummary times="3" last="1601882019756" />
+      </entry>
+      <entry key="EditorDown">
+        <ActionSummary times="67" last="1602044095183" />
+      </entry>
+      <entry key="EditorEnter">
+        <ActionSummary times="35" last="1602043965569" />
+      </entry>
+      <entry key="EditorEscape">
+        <ActionSummary times="3" last="1601964432937" />
+      </entry>
+      <entry key="EditorLeft">
+        <ActionSummary times="86" last="1601882176148" />
+      </entry>
+      <entry key="EditorNextWordWithSelection">
+        <ActionSummary times="19" last="1601880270111" />
+      </entry>
+      <entry key="EditorPageDown">
+        <ActionSummary times="3" last="1602042777760" />
+      </entry>
+      <entry key="EditorPaste">
+        <ActionSummary times="3" last="1601996197687" />
+      </entry>
+      <entry key="EditorPreviousWordWithSelection">
+        <ActionSummary times="4" last="1601880225994" />
+      </entry>
+      <entry key="EditorRight">
+        <ActionSummary times="106" last="1601964404726" />
+      </entry>
+      <entry key="EditorScrollDown">
+        <ActionSummary times="1" last="1601882029108" />
+      </entry>
+      <entry key="EditorSelectWord">
+        <ActionSummary times="14" last="1601964361541" />
+      </entry>
+      <entry key="EditorToggleInsertState">
+        <ActionSummary times="1" last="1601882016099" />
+      </entry>
+      <entry key="EditorUnSelectWord">
+        <ActionSummary times="6" last="1601880259117" />
+      </entry>
+      <entry key="EditorUp">
+        <ActionSummary times="88" last="1602043965912" />
+      </entry>
+      <entry key="EmacsStyleIndent">
+        <ActionSummary times="2" last="1602043966330" />
+      </entry>
+      <entry key="Exit">
+        <ActionSummary times="1" last="1601870629863" />
+      </entry>
+      <entry key="Github.Create.Gist">
+        <ActionSummary times="1" last="1601869015093" />
+      </entry>
+      <entry key="Go.NewGoFile">
+        <ActionSummary times="2" last="1601964353761" />
+      </entry>
+      <entry key="GoFmtFileAction">
+        <ActionSummary times="3" last="1601871316456" />
+      </entry>
+      <entry key="GotoAction">
+        <ActionSummary times="5" last="1601880712105" />
+      </entry>
+      <entry key="GotoDeclaration">
+        <ActionSummary times="4" last="1601881047182" />
+      </entry>
+      <entry key="ImplementMethods">
+        <ActionSummary times="4" last="1601881015698" />
+      </entry>
+      <entry key="IntroduceVariable">
+        <ActionSummary times="2" last="1601882125468" />
+      </entry>
+      <entry key="NavBar-return">
+        <ActionSummary times="3" last="1601885454356" />
+      </entry>
+      <entry key="NextTemplateVariable">
+        <ActionSummary times="3" last="1601881010080" />
+      </entry>
+      <entry key="OpenFile">
+        <ActionSummary times="1" last="1602043870148" />
+      </entry>
+      <entry key="QuickImplementations">
+        <ActionSummary times="1" last="1601881030994" />
+      </entry>
+      <entry key="ReformatCode">
+        <ActionSummary times="7" last="1601871360815" />
+      </entry>
+      <entry key="RestoreDefaultSettings">
+        <ActionSummary times="1" last="1602044307900" />
+      </entry>
+      <entry key="Run">
+        <ActionSummary times="8" last="1601881241871" />
+      </entry>
+      <entry key="SaveAll">
+        <ActionSummary times="3" last="1601881239645" />
+      </entry>
+      <entry key="ShowIntentionActions">
+        <ActionSummary times="5" last="1601882187647" />
+      </entry>
+      <entry key="ShowSettings">
+        <ActionSummary times="7" last="1602044302269" />
+      </entry>
+      <entry key="SmartTypeCompletion">
+        <ActionSummary times="13" last="1601880912955" />
+      </entry>
+      <entry key="StepOver">
+        <ActionSummary times="12" last="1601880742677" />
+      </entry>
+      <entry key="ToggleLineBreakpoint">
+        <ActionSummary times="5" last="1601880706908" />
+      </entry>
+      <entry key="Unscramble">
+        <ActionSummary times="1" last="1601880309281" />
+      </entry>
+      <entry key="WelcomeScreen.Plugins">
+        <ActionSummary times="3" last="1601997256464" />
+      </entry>
+      <entry key="WelcomeScreen.Settings">
+        <ActionSummary times="2" last="1601997263203" />
+      </entry>
+      <entry key="com.intellij.application.options.schemes.AbstractSchemesPanel$ShowSchemesActionsListAction">
+        <ActionSummary times="2" last="1601996614511" />
+      </entry>
+      <entry key="com.intellij.codeInsight.hint.ImplementationViewComponent$EditSourceAction">
+        <ActionSummary times="1" last="1601881034972" />
+      </entry>
+      <entry key="com.intellij.execution.lineMarker.LineMarkerActionWrapper">
+        <ActionSummary times="3" last="1601996204154" />
+      </entry>
+      <entry key="com.intellij.ide.ReopenProjectAction">
+        <ActionSummary times="3" last="1602042741396" />
+      </entry>
+      <entry key="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+        <ActionSummary times="281" last="1602044137756" />
+      </entry>
+      <entry key="com.intellij.openapi.ui.DialogWrapper$5">
+        <ActionSummary times="1" last="1601870958078" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
+        <ActionSummary times="2" last="1601881072910" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.ToolWindowHeader$ShowOptionsAction">
+        <ActionSummary times="2" last="1601881071823" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.welcomeScreen.FlatWelcomeFrame$FlatWelcomeScreen$4">
+        <ActionSummary times="1" last="1601997183328" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.welcomeScreen.FlatWelcomeFrame$FlatWelcomeScreen$6">
+        <ActionSummary times="5" last="1601997246351" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$2">
+        <ActionSummary times="5" last="1601997262342" />
+      </entry>
+      <entry key="com.intellij.ui.ScrollingUtil$6">
+        <ActionSummary times="9" last="1601882157125" />
+      </entry>
+      <entry key="com.intellij.ui.ScrollingUtil$7">
+        <ActionSummary times="5" last="1601882119138" />
+      </entry>
+      <entry key="editRunConfigurations">
+        <ActionSummary times="2" last="1601881146154" />
+      </entry>
+      <entry key="learn.next.lesson">
+        <ActionSummary times="8" last="1601880274000" />
+      </entry>
+      <entry key="training.actions.ModuleActionGroup">
+        <ActionSummary times="4" last="1601882140471" />
+      </entry>
+    </data>
+  </component>
+</application>

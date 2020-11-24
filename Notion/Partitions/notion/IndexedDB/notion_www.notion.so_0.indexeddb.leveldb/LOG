@@ -1,0 +1,7 @@
+2020/11/18-16:48:32.878 42639 Reusing MANIFEST /home/dyear/.config/Notion/Partitions/notion/IndexedDB/notion_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/18-16:48:32.879 42639 Recovering log #47
+2020/11/18-16:48:32.879 42639 Reusing old log /home/dyear/.config/Notion/Partitions/notion/IndexedDB/notion_www.notion.so_0.indexeddb.leveldb/000047.log 
+2020/11/18-16:48:33.500 426e8 Compacting 1@1 + 1@2 files
+2020/11/18-16:48:33.554 426e8 Generated table #50@1: 23547 keys, 1185291 bytes
+2020/11/18-16:48:33.554 426e8 Compacted 1@1 + 1@2 files => 1185291 bytes
+2020/11/18-16:48:33.558 426e8 compacted to: files[ 0 0 1 0 0 0 0 ]

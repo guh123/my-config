@@ -1,0 +1,9 @@
+[2020-11-12 11:37:01.830] [sharedprocess] [info] main {"machineId":"033fb1252174899d023c6ce2c1482ad8534df8b4ea452c49687c0397df9fc6ac","windowId":2}
+[2020-11-12 11:37:03.545] [sharedprocess] [info] Installing extension: golang.go
+[2020-11-12 11:37:04.418] [sharedprocess] [info] Downloaded extension: golang.go undefined
+[2020-11-12 11:37:04.515] [sharedprocess] [info] Extracted extension to /home/dyear/.vscode-oss/extensions/.golang.go-0.18.1: golang.go
+[2020-11-12 11:37:04.515] [sharedprocess] [info] Renamed to /home/dyear/.vscode-oss/extensions/golang.go-0.18.1
+[2020-11-12 11:37:04.516] [sharedprocess] [info] Installation completed. golang.go
+[2020-11-12 11:37:04.526] [sharedprocess] [info] Extensions installed successfully: golang.go
+[2020-11-12 11:37:41.837] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-11-12 11:37:41.840] [sharedprocess] [info] Skipping directory 820d313a322249e4ac524b91407d04b0.zh-cn. Language pack still in use.

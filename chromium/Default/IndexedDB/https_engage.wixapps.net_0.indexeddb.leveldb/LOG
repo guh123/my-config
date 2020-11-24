@@ -1,0 +1,5 @@
+2020/10/22-21:54:40.398 1afbe2 Reusing MANIFEST /home/dyear/.config/chromium/Default/IndexedDB/https_engage.wixapps.net_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/22-21:54:43.718 1b068c Level-0 table #5: started
+2020/10/22-21:54:43.723 1b068c Level-0 table #5: 1120 bytes OK
+2020/10/22-21:54:43.736 1b068c Delete type=0 #3
+2020/10/22-21:54:43.736 1b068c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

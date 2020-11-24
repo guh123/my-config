@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <style>
+
+            .loading-wrap {
+                position: absolute;
+                top : 0;
+                left: 0;
+                right : 0;
+                bottom: 0;
+                width : 50px;
+                height: 6px;
+                margin: auto;
+            }
+
+            .loading-wrap .each-dot {
+                background-color: #000000;
+                position: absolute;
+                border-radius: 50%;
+                width: 7px;
+                height: 7px;
+
+                -webkit-animation: loading-dots 1.3s infinite;
+                -webkit-animation-fill-mode: both;
+
+                -o-animation: loading-dots 1.3s infinite;
+                -o-animation-fill-mode: both;
+
+                -moz-animation: loading-dots 1.3s infinite;
+                -moz-animation-fill-mode: both;
+
+                animation: loading-dots 1.3s infinite;
+                animation-fill-mode: both;
+            }
+
+            .night-mode .support-night-mode .each-dot {
+                background-color: #FFFFFF;
+            }
+
+            .loading-wrap.white-dots .each-dot {
+                background-color: #FFFFFF;
+            }
+
+            #dot-one {
+                left : 0;
+                top : 0;	
+            }
+
+            #dot-two {
+                left : 17px;
+                top : 0;
+                -o-animation-delay: 0.3s;
+                -moz-animation-delay: 0.3s;
+                -webkit-animation-delay: 0.3s;
+                animation-delay: 0.3s;
+            }
+
+            #dot-three {
+                left : 34px;
+                -o-animation-delay: 0.5s;
+                -moz-animation-delay: 0.5s;
+                -webkit-animation-delay: 0.5s;
+                animation-delay: 0.5s;
+            }
+
+            @keyframes loading-dots {
+                0% {
+                    -webkit-transform: scale(1);
+                	-moz-transform: scale(1);
+                	-ms-transform: scale(1);
+                	-o-transform: scale(1);
+                	transform: scale(1);
+                }
+                20% {
+                    -webkit-transform: scale(1.3);
+                	-moz-transform: scale(1.3);
+                	-ms-transform: scale(1.3);
+                	-o-transform: scale(1.3);
+                	transform: scale(1.3);
+                }
+                50% {
+                    -webkit-transform: scale(1);
+                	-moz-transform: scale(1);
+                	-ms-transform: scale(1);
+                	-o-transform: scale(1);
+                	transform: scale(1);
+                }
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <div class="loading-wrap">
+            <div id="dot-one" class="each-dot">
+            </div>
+            <div id="dot-two" class="each-dot">
+            </div>
+            <div id="dot-three" class="each-dot">
+            </div>
+        </div>
+        
+    </body>
+</html>

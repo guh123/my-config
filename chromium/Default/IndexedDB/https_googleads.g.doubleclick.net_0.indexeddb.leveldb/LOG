@@ -1,0 +1,8 @@
+2020/11/12-11:41:39.996 176572 Reusing MANIFEST /home/dyear/.config/chromium/Default/IndexedDB/https_googleads.g.doubleclick.net_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/12-11:41:39.996 176572 Recovering log #50
+2020/11/12-11:41:39.996 176572 Reusing old log /home/dyear/.config/chromium/Default/IndexedDB/https_googleads.g.doubleclick.net_0.indexeddb.leveldb/000050.log 
+2020/11/12-11:41:58.739 176dac Level-0 table #54: started
+2020/11/12-11:41:58.739 176dac Level-0 table #54: 0 bytes OK
+2020/11/12-11:41:58.746 176dac Delete type=0 #50
+2020/11/12-11:41:58.746 176dac Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/12-11:41:58.746 176dac Manual compaction at level-1 from (begin) .. (end); will stop at (end)

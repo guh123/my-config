@@ -1,0 +1,15 @@
+2020/11/23-20:25:05.193 16f424 Reusing MANIFEST /home/dyear/.config/chromium/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/23-20:25:05.193 16f424 Recovering log #39
+2020/11/23-20:25:05.194 16f424 Reusing old log /home/dyear/.config/chromium/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/000039.log 
+2020/11/23-20:25:37.265 16b4fb Level-0 table #44: started
+2020/11/23-20:25:37.269 16b4fb Level-0 table #44: 190 bytes OK
+2020/11/23-20:25:37.274 16b4fb Delete type=0 #39
+2020/11/23-20:25:37.274 16b4fb Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/23-20:25:37.274 16b4fb Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 3744 : 1
+2020/11/23-20:25:37.274 16b4fb Compacting 1@1 + 1@2 files
+2020/11/23-20:25:37.278 16b4fb Generated table #45@1: 57 keys, 1769 bytes
+2020/11/23-20:25:37.278 16b4fb Compacted 1@1 + 1@2 files => 1769 bytes
+2020/11/23-20:25:37.283 16b4fb compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/23-20:25:37.283 16b4fb Delete type=2 #41
+2020/11/23-20:25:37.283 16b4fb Delete type=2 #44
+2020/11/23-20:25:37.283 16b4fb Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 3744 : 1 .. (end); will stop at (end)

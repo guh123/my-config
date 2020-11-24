@@ -1,0 +1,8 @@
+2020/11/20-22:18:02.124 2e418d Reusing MANIFEST /home/dyear/.config/chromium/Default/IndexedDB/https_www.wolai.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/20-22:18:02.124 2e418d Recovering log #32
+2020/11/20-22:18:02.125 2e418d Reusing old log /home/dyear/.config/chromium/Default/IndexedDB/https_www.wolai.com_0.indexeddb.leveldb/000032.log 
+2020/11/20-22:19:47.345 2e418d Level-0 table #36: started
+2020/11/20-22:19:47.346 2e418d Level-0 table #36: 0 bytes OK
+2020/11/20-22:19:47.351 2e418d Delete type=0 #32
+2020/11/20-22:19:47.352 2e418d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/20-22:19:47.352 2e418d Manual compaction at level-1 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,111 @@
+<application>
+  <component name="VimHistorySettings">
+    <history>
+      <history-search>
+        <entry>'static</entry>
+        <entry>asd</entry>
+        <entry>return</entry>
+        <entry encoding="base64">JyZzdGF0aWM=</entry>
+        <entry>eprin</entry>
+        <entry>'a</entry>
+        <entry>'staic</entry>
+        <entry>static</entry>
+      </history-search>
+      <history-cmd>
+        <entry>Action</entry>
+        <entry>help</entry>
+        <entry>ls</entry>
+        <entry>pwd</entry>
+        <entry>h</entry>
+        <entry>list</entry>
+        <entry>actionlist</entry>
+        <entry>actionlist terminal</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/IdeaProjects/untitled/src/Person.java" timestamp="1602640284733">
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="6" column="4" />
+        <mark key="^" line="6" column="4" />
+        <mark key="." line="6" column="3" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/feroxbuster/src/reporter.rs" timestamp="1604929865861">
+        <mark key="[" line="5" column="18" />
+        <mark key="]" line="5" column="18" />
+        <mark key="." line="5" column="18" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/feroxbuster/src/main.rs" timestamp="1602727812475">
+        <mark key="'" line="31" column="12" />
+        <mark key="[" line="0" column="4" />
+        <mark key="]" line="0" column="4" />
+        <mark key="m" line="31" column="12" />
+        <mark key="." line="0" column="4" />
+        <mark key="n" line="31" column="12" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/feroxbuster/src/scanner.rs" timestamp="1602727235701">
+        <mark key="[" line="14" column="28" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/feroxbuster/src/lib.rs" timestamp="1602727980857">
+        <mark key="'" line="16" column="70" />
+        <mark key="[" line="10" column="0" />
+        <mark key="]" line="10" column="0" />
+        <mark key="." line="10" column="0" />
+        <mark key="^" line="10" column="0" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="32" column="8" filename="$USER_HOME$/IdeaProjects/feroxbuster/src/main.rs" />
+      <jump line="31" column="12" filename="$USER_HOME$/IdeaProjects/feroxbuster/src/main.rs" />
+      <jump line="9" column="13" filename="$USER_HOME$/IdeaProjects/feroxbuster/src/lib.rs" />
+      <jump line="16" column="70" filename="$USER_HOME$/IdeaProjects/feroxbuster/src/lib.rs" />
+    </jumps>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="1" type="2">
+        <text encoding="base64">dXNlIGZ1Y2s7Cg==</text>
+      </register>
+      <register name="&quot;" type="4">
+        <text>;</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ZSBvZCBmdWNre30K</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">Cgo=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Zm4gYWEoKSAtPiBpMzIgewp9Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIHNjYW5uZXI6OnNjYW5fdXJsKCkK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">CmFzZA==</text>
+      </register>
+      <register name=":" type="4">
+        <text>actionlist terminal</text>
+      </register>
+      <register name="-" type="4">
+        <text>;</text>
+      </register>
+      <register name="/" type="4">
+        <text>static</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-search>static</last-search>
+      <last-offset />
+      <last-pattern>static</last-pattern>
+      <last-dir>1</last-dir>
+      <show-last>false</show-last>
+    </search>
+  </component>
+</application>

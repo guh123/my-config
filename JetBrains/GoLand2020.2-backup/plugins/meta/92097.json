@@ -1,0 +1,1 @@
+{"id":92097,"xmlId":"com.intellij.tasks","name":"Task Management","description":"Enables task and context management","tags":["Code tools"],"vendor":"JetBrains","version":"202.6397.21","dependencies":["com.intellij.modules.xml"],"optionalDependencies":["com.intellij.modules.java","XPathView"],"since":"202.6397","until":"202.*","size":2305890}

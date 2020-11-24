@@ -1,0 +1,8 @@
+Starting linting the current package at /home/dyear
+Starting "go vet" under the folder /home/dyear
+Starting building the current package at /home/dyear
+Not able to determine import path of current package by using cwd: /home/dyear and Go workspace: 
+/home/dyear>Finished running tool: /usr/bin/go build -o /tmp/vscode-gol1l3nk/go-code-check .
+
+/home/dyear>Finished running tool: /usr/bin/go vet .
+

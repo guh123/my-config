@@ -1,0 +1,8 @@
+2020/11/21-10:42:22.947 a5d Reusing MANIFEST /home/dyear/.config/chromium/Default/IndexedDB/https_www.zhipin.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/21-10:42:22.947 a5d Recovering log #26
+2020/11/21-10:42:22.947 a5d Reusing old log /home/dyear/.config/chromium/Default/IndexedDB/https_www.zhipin.com_0.indexeddb.leveldb/000026.log 
+2020/11/21-10:48:55.677 a6d Level-0 table #30: started
+2020/11/21-10:48:55.677 a6d Level-0 table #30: 0 bytes OK
+2020/11/21-10:48:55.684 a6d Delete type=0 #26
+2020/11/21-10:48:55.684 a6d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/21-10:48:55.685 a6d Manual compaction at level-1 from (begin) .. (end); will stop at (end)

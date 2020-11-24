@@ -1,0 +1,5 @@
+2020/10/14-15:50:16.219 d748c Reusing MANIFEST /home/dyear/.config/chromium/Default/IndexedDB/https_docs.qq.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/15-14:38:22.986 3c34e3 Level-0 table #5: started
+2020/10/15-14:38:23.018 3c34e3 Level-0 table #5: 733483 bytes OK
+2020/10/15-14:38:23.024 3c34e3 Delete type=0 #3
+2020/10/15-14:38:23.024 3c34e3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

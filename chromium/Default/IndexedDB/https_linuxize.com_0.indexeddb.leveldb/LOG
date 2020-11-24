@@ -1,0 +1,5 @@
+2020/10/08-18:51:55.371 1de4e Reusing MANIFEST /home/dyear/.config/chromium/Default/IndexedDB/https_linuxize.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/08-18:52:50.161 1e24e Level-0 table #5: started
+2020/10/08-18:52:50.164 1e24e Level-0 table #5: 1955 bytes OK
+2020/10/08-18:52:50.169 1e24e Delete type=0 #3
+2020/10/08-18:52:50.169 1e24e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

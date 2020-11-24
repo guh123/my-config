@@ -1,0 +1,9 @@
+file:///home/dyear/1.php {"mtime":1602235649192,"ctime":1602235649192,"size":124,"etag":"35pia71ng40","orphaned":false}
+<?php
+$a = array('asd','bf');
+var_dump(serialize($a));
+echo preg_replace("/as/i","",'aassfg');
+echo readfile("she.py");
+
+?>
+

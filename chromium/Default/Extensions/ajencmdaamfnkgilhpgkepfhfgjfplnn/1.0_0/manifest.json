@@ -1,0 +1,34 @@
+{
+   "author": "Zhenyu Huang",
+   "background": {
+      "page": "bg/background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "img/icon19.png",
+         "38": "img/icon38.png"
+      }
+   },
+   "content_scripts": [ {
+      "css": [ "fg/css/client.css" ],
+      "js": [ "fg/js/source-range.js", "fg/js/source-element.js", "fg/js/popup.js", "fg/js/api.js", "fg/js/client.js" ],
+      "matches": [ "*://*/*", "file://*/*" ]
+   } ],
+   "description": "划词翻译，一键制卡",
+   "icons": {
+      "128": "img/icon128.png",
+      "16": "img/icon16.png",
+      "48": "img/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyK0gl9ne0yKwz7vEM6H8x39NUiEkD/dc7WBHbV18TcOtDHJV7uvpBq3CTeUZ+41yrgHzTPpl9VdDIcFsLmkbaf7jbD8tT+BHOBivmPSnwbtqJnLbrdIP2aftSjGs2rJcvnEBloqsqveJDBMKgTC+OzGt2lHUtHe7T8rmunkITCHY6c7OrgQUcEv32oetfwNc4wUujhMm3E1jqdQJ5VFVo6jrfH0UdAyHgHbr5FW9bMjBjJLi5NlA/tJ5vTqSg5f1IN3pk0tSZIe7rqPKK2CJKOiWDWVFHPYm/AdTPXzYw/1ovKF+8vPO5X8oqpvrYCYp9IPdF4jx4LRwJLx9aqH+tQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "45.0.0.0",
+   "name": "Anki 划词制卡助手",
+   "options_ui": {
+      "page": "bg/options.html"
+   },
+   "permissions": [ "file://*/*", "http://*/*", "https://*/*", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0",
+   "web_accessible_resources": [ "fg/css/frame.css", "fg/img/add_kanji.png", "fg/img/add_vocab_kana.png", "fg/img/add_vocab_kanji.png", "fg/img/play_audio.png", "fg/js/frame.js" ]
+}

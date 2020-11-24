@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <script src="../vendor/babelpolyfill/babel-polyfill-6.26.0.js"></script>
+        <link rel="stylesheet" type="text/css" href="../css/smart-popup.css">
+    </head>
+
+    <body>
+        <div id="popup-wrap">
+            <div id="popup-editor-wrap" class="popup-editor-hide maximize">
+                <div id="popup-header">
+                    <input id="popup-title" placeholder="Title">
+                    </input>
+                    <div id="close-option">
+                        <div id="popup-minimize" class="open"></div>
+                        <div id="popup-done">Done</div>
+                        <div id="circle-loader" class="done-loading loader"></div>
+                    </div>
+                </div>
+                <div id="popup-editor" contenteditable="true" placeholder="Take notes"></div>
+            
+                <div id="login-overlay"></div>
+                <div id="login-option-wrap">
+                    <div id="login-option-header">
+                        Sign In to save to Notebook
+                    </div>
+                    <div id="login-in" class="login-option">
+                        Sign in 
+                    </div>
+                    <div id="dc-option" class="transition-all-eo hide">
+                        <div id="where-sign">
+                            Where do you want to sign-in?
+                        </div>
+                        <div id="us-login" class="login-option">
+                            Zoho
+                        </div>
+                        <div id="china-login" class="login-option">
+                            Zoho China
+                        </div>
+                    </div>
+                    <div id="or">
+                        - or - 
+                    </div>
+                    <div id="save-as-wrap" class="login-option">
+                        <a id="save-as">
+                            Save as a .txt file
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="smart-popup" class="smart-popup-show">
+                <div id="ismart-x" class="iclose">
+                </div>
+                <div id="smart-popup-icon">
+                </div>
+            </div>
+            <div id="circle-loader-save" class="loader"></div>
+            <div id="smart-message" class="smart-message">
+                Note Added
+            </div> 
+            <div id="close-toast">
+                You can permanently disable 'Meeting Notes' from Clipper Settings.
+            </div>
+        </div>
+
+        <div id="loading-wrap" class="loading-wrap">
+
+            <div id="dot-one" class="each-dot">
+            </div>
+    
+            <div id="dot-two" class="each-dot">
+            </div>
+        
+            <div id="dot-three" class="each-dot">
+            </div>
+            
+        </div>
+        <script src="../dist/smart-popup.bundle.js"></script>
+        <link rel="stylesheet" type="text/css" href="../css/icon.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,900">
+    </body>
+
+</html>

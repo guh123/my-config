@@ -1,0 +1,78 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/PycharmProjects/flaskProject">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1iwGnCqOd5tBO0vewak3QY0m79M">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-202.7660.27" />
+              <option name="buildTimestamp" value="1601978780370" />
+              <frame x="10" y="34" width="1346" height="724" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1603267827174" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Study/w13scan">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1jBC0RCpawcVSnAsRE62e19fbHi">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-202.7660.27" />
+              <option name="buildTimestamp" value="1601978780370" />
+              <frame x="10" y="34" width="1346" height="724" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1603267874629" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Study/Dscan">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1jCDGS0qkUqyE6lZIaWGgrA8e9C">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-202.7660.27" />
+              <option name="buildTimestamp" value="1601978780370" />
+              <frame x="0" y="0" width="1366" height="768" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1603299279587" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/PycharmProjects/pythonProject">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1jCDk1ZBQjzVuz8bfOJbNEYEHJ8">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-202.7660.27" />
+              <option name="buildTimestamp" value="1601978802721" />
+              <frame x="10" y="34" width="1346" height="724" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1603527889688" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Study/w13scan/W13SCAN">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1jByDtrTJt471oqiw85sfeTNlCk">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-202.7660.27" />
+              <option name="buildTimestamp" value="1601978802721" />
+              <frame x="10" y="34" width="1346" height="724" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1603527911768" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/PycharmProjects" />
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/Study/w13scan/W13SCAN" />
+        <option value="$USER_HOME$/PycharmProjects/pythonProject" />
+        <option value="$USER_HOME$/Study/Dscan" />
+        <option value="$USER_HOME$/Study/w13scan" />
+        <option value="$USER_HOME$/PycharmProjects/flaskProject" />
+      </list>
+    </option>
+  </component>
+</application>

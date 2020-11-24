@@ -1,0 +1,6 @@
+2020/11/18-10:59:26.773 313278 Reusing MANIFEST /home/dyear/.config/Notion/Partitions/notion/IndexedDB/notion_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/18-10:59:26.773 313278 Recovering log #43
+2020/11/18-10:59:26.801 313278 Reusing old log /home/dyear/.config/Notion/Partitions/notion/IndexedDB/notion_www.notion.so_0.indexeddb.leveldb/000043.log 
+2020/11/18-10:59:41.667 3135cb Level-0 table #48: started
+2020/11/18-10:59:41.690 3135cb Level-0 table #48: 1071925 bytes OK
+2020/11/18-10:59:41.696 3135cb Delete type=0 #43

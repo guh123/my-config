@@ -1,0 +1,5 @@
+2020/10/14-09:48:24.903 106fb Reusing MANIFEST /home/dyear/.config/chromium/Default/IndexedDB/https_passport.weibo.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/14-09:48:31.491 106fa Level-0 table #5: started
+2020/10/14-09:48:31.496 106fa Level-0 table #5: 1025 bytes OK
+2020/10/14-09:48:31.503 106fa Delete type=0 #3
+2020/10/14-09:48:31.503 106fa Manual compaction at level-0 from (begin) .. (end); will stop at (end)

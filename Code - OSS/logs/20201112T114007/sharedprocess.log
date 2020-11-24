@@ -1,0 +1,4 @@
+[2020-11-12 11:40:10.848] [sharedprocess] [info] main {"machineId":"033fb1252174899d023c6ce2c1482ad8534df8b4ea452c49687c0397df9fc6ac","windowId":2}
+[2020-11-12 11:40:10.976] [sharedprocess] [info] Deleted from disk golang.go /home/dyear/.vscode-oss/extensions/golang.go-0.17.2
+[2020-11-12 11:40:50.860] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-11-12 11:40:50.861] [sharedprocess] [info] Skipping directory 820d313a322249e4ac524b91407d04b0.zh-cn. Language pack still in use.

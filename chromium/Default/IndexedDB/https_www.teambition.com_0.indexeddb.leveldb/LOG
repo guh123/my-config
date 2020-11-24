@@ -1,0 +1,5 @@
+2020/11/01-23:01:00.427 1bba8b Reusing MANIFEST /home/dyear/.config/chromium/Default/IndexedDB/https_www.teambition.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/01-23:01:27.856 1bba8b Level-0 table #5: started
+2020/11/01-23:01:27.861 1bba8b Level-0 table #5: 3749 bytes OK
+2020/11/01-23:01:27.865 1bba8b Delete type=0 #3
+2020/11/01-23:01:27.865 1bba8b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
